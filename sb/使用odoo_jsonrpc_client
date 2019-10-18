@@ -1,0 +1,26 @@
+################################################################
+windows+odooClient,测试odoo服务
+
+地址：
+https://github.com/pyhunterpig/odoo_jsonrpc_client
+
+文档：https://pythonhosted.org/OdooRPC/
+
+安装：
+python36 setup.py install
+################################################################登陆
+使用：
+from odooClient import  ODOO
+
+c0 = ODOO('http://192.168.1.240:8069')
+# c0.db.list()
+# user = c0.env.user
+c0.login('test','admin','admin')	# 登陆库
+################################################################模型的增删查改及模型的方法调用
+djxx = c0.env['cic_taxsb.djxx']		# 返回模型对象
+djxx.create({})	# 写入表中一条数据，返回记录的id
+# djxx.browse(1)			# 整条记录，id=1
+# djxx.browse(1).unlink()
+# djxx.browse(1).dsdlmm	# 记录字段的某个值
+djxx.browse(1).post()	# 调用post方法，第一条记录
+################################################################

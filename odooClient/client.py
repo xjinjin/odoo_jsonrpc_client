@@ -39,9 +39,9 @@ class Client(object):
             params = args
         return {
             "jsonrpc": "2.0",
-            "method": bytes(_method),
+            "method": str(_method),     # bytes(_method)
             "params": params,
-            "id": bytes(uuid4()),
+            "id": str(uuid4()),         # bytes(uuid4())
         }
 
     def _fetch(self, _method, *args, **kwargs):
