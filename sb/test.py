@@ -19,3 +19,15 @@ shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 45,  'startdate': '2019-09
 shenbaosheetwizard.browse(8).create_shenbao_sheet()
 shenbaosheetwizard.browse(7).xml
 shenbaosheetwizard.browse(8).temp_dict
+
+from odooClient import ODOO
+from datetime import datetime,timedelta
+import json
+odoo230 =ODOO('http://192.168.1.230:8069',timeout=600)
+odoo230.login('cic_oa','admin','cic_admin')
+cic_tools = odoo230.env['cic_tools.cic_finance']
+
+res = cic_tools.get_declaration_data('91320214MA1NYKMBXK','2019-07-01','2019-09-30')
+print(json.dumps(res,indent=1))
+# get_value_func
+
