@@ -25,7 +25,17 @@ from datetime import datetime,timedelta
 import json
 odoo230 =ODOO('http://192.168.1.230:8069',timeout=600)
 odoo230.login('cic_oa','admin','cic_admin')
+
 cic_tools = odoo230.env['cic_tools.cic_finance']
+
+shenbaosheetcell = odoo230.env['cic_taxsb.shenbaosheet.cell'] # 单元格
+shenbaosheet = odoo230.env['cic_taxsb.shenbaosheet']          # 表
+shenbaosheetwizard = odoo230.env['create.shenbaosheet.wizard']# 创建表
+
+# 创建xml报文
+xqykjzz_id = shenbaosheet.search([('name','=','财务报表-小企业会计准则-江苏')]) # 39
+shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 39,  'startdate': '2019-07-01',  'enddate': '2019-09-30'})
+shenbaosheetwizard.browse(1).create_shenbao_sheet()
 
 res = cic_tools.get_declaration_data('91320214MA1NYKMBXK','2019-07-01','2019-09-30')
 print(json.dumps(res,indent=1))

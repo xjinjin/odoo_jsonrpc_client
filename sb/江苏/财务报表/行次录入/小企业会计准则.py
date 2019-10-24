@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from odooClient import  ODOO
-c0 = ODOO('http://192.168.1.240:8069')
-c0.login('test','admin','admin')
+c0 = ODOO('http://192.168.1.230:8069')
+c0.login('cic_oa','admin','cic_admin')
 
 shenbaosheetcell = c0.env['cic_taxsb.shenbaosheet.cell'] # 单元格
 shenbaosheet = c0.env['cic_taxsb.shenbaosheet']          # 表
