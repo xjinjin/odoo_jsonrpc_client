@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsds_grjysdsxxVO>
+	<sbbinfo>
+		<sbzlbh>10524</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--个人经营所得A类 个人所得税生产经营所得纳税申报表(a表) -->
+	<jsds_grjysds_zb>
+		<!--0_floating_r2_1-->
+		<zbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--应纳税所得额-->
+			<ynssde/>
+			<!--征收方式-->
+			<zsfs/>
+			<!--企业类型-->
+			<qylx/>
+			<!--税款所属期止-->
+			<skssqz/>
+			<!--纳税人识别号-->
+			<nsrsbh/>
+			<!--被投资单位纳税人识别号-->
+			<btzdwnsrsbh/>
+			<!--弥补以前年度亏损-->
+			<mbyqndks/>
+			<!--成本费用-->
+			<cbfy/>
+			<!--身份证件号码-->
+			<sfzjhm/>
+			<!--利润总额-->
+			<lrze/>
+			<!--减免税额-->
+			<jmse/>
+			<!--国籍(地区)-->
+			<gjdq/>
+			<!--应补(退)税额-->
+			<ybtse/>
+			<!--已预缴税额-->
+			<yyjse/>
+			<!--应纳税额-->
+			<ynse/>
+			<!--收入总额-->
+			<srze/>
+			<!--税款所属期起-->
+			<skssqq/>
+			<!--合伙企业合伙人分配比例(%)-->
+			<hhqyhhrfpbl/>
+			<!--被投资单位名称-->
+			<btzdwmc/>
+			<!--速算扣除数-->
+			<sskcs/>
+			<!--身份证件类型-->
+			<sfzjlx/>
+			<!--投资者减除费用-->
+			<tzzjcfy/>
+			<!--姓名-->
+			<xm/>
+			<!--应税所得率(%)-->
+			<yssdl/>
+			<!--税率(%)-->
+			<sl/>
+		</zbGridlbVO>
+		<!--2-->
+		<zbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--被投资单位纳税人识别号-->
+			<btzdwnsrsbh/>
+			<!--已预缴税额-->
+			<yyjse/>
+			<!--利润总额-->
+			<lrze/>
+			<!--税款所属期止-->
+			<skssqz/>
+			<!--纳税人识别号-->
+			<nsrsbh/>
+			<!--征收方式-->
+			<zsfs/>
+			<!--成本费用-->
+			<cbfy/>
+			<!--合伙企业合伙人分配比例(%)-->
+			<hhqyhhrfpbl/>
+			<!--投资者减除费用-->
+			<tzzjcfy/>
+			<!--应税所得率(%)-->
+			<yssdl/>
+			<!--应纳税额-->
+			<ynse/>
+			<!--企业类型-->
+			<qylx/>
+			<!--姓名-->
+			<xm/>
+			<!--被投资单位名称-->
+			<btzdwmc/>
+			<!--收入总额-->
+			<srze/>
+			<!--速算扣除数-->
+			<sskcs/>
+			<!--身份证件号码-->
+			<sfzjhm/>
+			<!--弥补以前年度亏损-->
+			<mbyqndks/>
+			<!--身份证件类型-->
+			<sfzjlx/>
+			<!--税率(%)-->
+			<sl/>
+			<!--减免税额-->
+			<jmse/>
+			<!--国籍(地区)-->
+			<gjdq/>
+			<!--应补(退)税额-->
+			<ybtse/>
+			<!--税款所属期起-->
+			<skssqq/>
+			<!--应纳税所得额-->
+			<ynssde/>
+		</zbGridlbVO>
+	</jsds_grjysds_zb>
+	<!--个人经营所得A类 附表一-->
+	<jsds_grjysds_jmssx/>
+	<!--个人经营所得A类 附表二 -->
+	<jsds_grjysds_jcxxb_b/>
+</jsds_grjysdsxxVO>

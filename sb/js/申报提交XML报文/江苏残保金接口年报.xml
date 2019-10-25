@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsds_cbxxVO>
+	<sbbinfo>
+		<sbzlbh>10517</sbzlbh> <!-- 残保金 -->
+		<ssqq>2019-01-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-12-31</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>4</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<jsds_cb_sbb>
+		<!---->
+		<sbbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--##*上年实际安排残疾人就业人数-->
+			<snsjapcjrjyrs/>
+			<!--##征收比例-->
+			<zsbl/>
+			<!--##本年减免费额-->
+			<bnjmfe/>
+			<!--##*费款所属期起-->
+			<fkssqq/>
+			<!--##*本年应纳费额-->
+			<bnynfe/>
+			<!--##*上年在职职工年平均工资-->
+			<snzzzgnpjgz/>
+			<!--##减免性质-->
+			<jmxz/>
+			<!--##*上年在职职工工资总额-->
+			<snzzzggzze/>
+			<!--##*上年在职职工人数-->
+			<snzzzgrs/>
+			<!--##本期应补(退)费额-->
+			<bqybtfe/>
+			<!--##本期已缴费额-->
+			<bqyjfe/>
+			<!--##*费款所属期止-->
+			<fkssqz/>
+			<!--##*应安排残疾人就业比例-->
+			<yapcjrjybl/>
+		</sbbGridlbVO>
+	</jsds_cb_sbb>
+</jsds_cbxxVO>

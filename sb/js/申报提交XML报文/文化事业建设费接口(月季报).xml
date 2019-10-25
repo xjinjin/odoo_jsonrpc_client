@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsxgs_whsyjsfxxVO>
+	<sbbinfo>
+		<sbzlbh>10601</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<jsxgs_whsyjsf_ssb>
+		<!--计费收入##应征收入-->
+		<ssbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--计费收入##免征收入-->
+		<ssbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##减除项目期初金额-->
+		<ssbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##减除项目本期发生额-->
+		<ssbGridlbVO>
+			<ewbhxh>4</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##本期减除额##应征收入减除额-->
+		<ssbGridlbVO>
+			<ewbhxh>5</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##本期减除额##免征收入减除额-->
+		<ssbGridlbVO>
+			<ewbhxh>6</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##减除项目期末余额-->
+		<ssbGridlbVO>
+			<ewbhxh>7</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##计费销售额-->
+		<ssbGridlbVO>
+			<ewbhxh>8</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--费额计算##费率-->
+		<ssbGridlbVO>
+			<ewbhxh>9</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额计算##应缴费额-->
+		<ssbGridlbVO>
+			<ewbhxh>10</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--费额缴纳##期初未缴费额(多缴为负)-->
+		<ssbGridlbVO>
+			<ewbhxh>11</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额缴纳##本期已缴费额-->
+		<ssbGridlbVO>
+			<ewbhxh>12</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额缴纳##其中：本期预缴费额-->
+		<ssbGridlbVO>
+			<ewbhxh>13</ewbhxh>
+			<!--本年累计-->
+			<bnlj/>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额缴纳##本期缴纳上期费额-->
+		<ssbGridlbVO>
+			<ewbhxh>14</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--费额缴纳##本期缴纳欠费额-->
+		<ssbGridlbVO>
+			<ewbhxh>15</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--费额缴纳##期末未缴费额(多缴为负)-->
+		<ssbGridlbVO>
+			<ewbhxh>16</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!--费额缴纳##其中：欠缴费额(≧0)-->
+		<ssbGridlbVO>
+			<ewbhxh>17</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额缴纳##本期应补(退)费额-->
+		<ssbGridlbVO>
+			<ewbhxh>18</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+		</ssbGridlbVO>
+		<!--费额缴纳##本期检查已补缴费额-->
+		<ssbGridlbVO>
+			<ewbhxh>19</ewbhxh>
+			<!--本月(期)数-->
+			<byqs/>
+			<!--本年累计-->
+			<bnlj/>
+		</ssbGridlbVO>
+		<!-- 新增字段大节点 -->
+		<ssbGridlbVO>
+			<ewbhxh>20</ewbhxh>
+			<!-- 经办人员（签章）根据实际情况赋值，不影响申报 -->
+			<bsrymc/>
+			<!--财务负责人（签章）根据实际情况赋值，不影响申报 -->
+			<cwfzr/>
+			<!--法定代表人（签章），不用传，直接取  根据实际情况赋值，不影响申报 -->
+			<fddbrqz/>
+			<!--联系电话   根据实际情况赋值，不影响申报	 -->
+			<jnywrlxdh/>
+			<!--代理人名称   根据实际情况赋值，不影响申报 -->
+			<dlrmc/>
+			<!--经办人（签章）  根据实际情况赋值，不影响申报 -->
+			<dljbr/>
+			<!-- 代理人联系电话 -->
+			<dlrlxdh/>
+			<!--接收人   根据实际情况赋值，不影响申报 -->
+			<jsr/>
+			<!-- 收到日期  不赋值，默认为当前日期 根据实际情况赋值，不影响申报 -->
+			<sdrq/>
+			<!-- 主管税务机关   不用传，自动会取 -->
+			<zgswjg/>
+			<!--是否代理申报  N为不是代理申报 Y为代理申报 -->
+			<sfdlsb/>
+			<!--代理人员身份证件类型   根据实际情况赋值，不影响申报，如果传入的话传对应的id即可 -->
+			<dlrsfzjzlDm1/>
+			<!-- 代理人员身份证件号码  根据实际情况赋值，不影响申报 -->
+			<dlrsfzjhm1/>
+			
+		</ssbGridlbVO>
+		
+		
+	</jsxgs_whsyjsf_ssb>
+	<jsxgs_whsyjsf_jcxmqd>
+		<!--0_floating_r4_-->
+		<jcxmqdGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--服务项目名称-->
+			<fwxmmc/>
+			<!--凭证种类-->
+			<pzzl/>
+			<!--凭证号码-->
+			<pzhm/>
+			<!--金额-->
+			<je/>
+			<!--开票方纳税人识别号-->
+			<kpfnsrsbh/>
+			<!--开票方单位名称-->
+			<kpfdwmc/>
+		</jcxmqdGridlbVO>
+		<!--新增-合计金额附表节点,浙江必填，其他非必填-->
+		<jcxmqdGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--合计金额-->
+			<hjje/>
+		</jcxmqdGridlbVO>
+	</jsxgs_whsyjsf_jcxmqd>
+</jsxgs_whsyjsfxxVO>

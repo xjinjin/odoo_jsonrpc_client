@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsxgs_xfs_dcxxVO>
+	<sbbinfo>
+		<sbzlbh>10311</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--新国税消费税（电池）申报表 电池消费税纳税申报表-->
+    <jsxgs_xfs_dc_sbb>
+        <!--电池(不含铅蓄电池)-->
+        <sbbGridlbVO>
+            <ewbhxh>1</ewbhxh>
+            <!--销售数量-->
+            <xssl/>
+            <!--销售额-->
+            <xse/>
+            <!--应纳税额-->
+            <ynse/>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--铅蓄电池-->
+        <sbbGridlbVO>
+            <ewbhxh>2</ewbhxh>
+            <!--应纳税额-->
+            <ynse/>
+        </sbbGridlbVO>
+        <!--合计:-->
+        <sbbGridlbVO>
+            <ewbhxh>3</ewbhxh>
+            <!--应纳税额-->
+            <ynse/>
+        </sbbGridlbVO>
+        <!--本期准予扣除税额-->
+        <sbbGridlbVO>
+            <ewbhxh>4</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--本期减(免)税额-->
+        <sbbGridlbVO>
+            <ewbhxh>5</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--期初未缴税额-->
+        <sbbGridlbVO>
+            <ewbhxh>6</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--本期缴纳前期应纳税额-->
+        <sbbGridlbVO>
+            <ewbhxh>7</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--本期预缴税额-->
+        <sbbGridlbVO>
+            <ewbhxh>8</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--本期应补(退)税额-->
+        <sbbGridlbVO>
+            <ewbhxh>9</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--期末未缴税额-->
+        <sbbGridlbVO>
+            <ewbhxh>10</ewbhxh>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+        <!--办理人员身份证件号码-->
+        <sbbGridlbVO>
+            <ewbhxh>11</ewbhxh>
+            <!--销售数量-->
+            <xssl/>
+            <!--适用税率-->
+            <sysl/>
+        </sbbGridlbVO>
+    </jsxgs_xfs_dc_sbb>
+    <!--新国税消费税（电池）申报表 附表1：本期减(免)税额计算表-->
+    <jsxgs_xfs_dc_fb1/>
+    <!--新国税消费税（电池）申报表 附表2：本期代收代缴税款计算表 -->
+    <jsxgs_xfs_dc_fb2/>
+</jsxgs_xfs_dcxxVO>

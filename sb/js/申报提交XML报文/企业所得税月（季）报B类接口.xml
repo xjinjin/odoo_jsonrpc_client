@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsxgs_qysds_group_bxxVO>
+	<sbbinfo>
+		<sbzlbh>10413</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--所得税B类-->
+	<jsxgs_qysds_group_b_yjnssb>
+		<!--收入总额-->
+		<yjnssbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--收入总额##本年累计金额-->
+			<srzebnljje/>
+		</yjnssbGridlbVO>
+		<!--减：不征税收入-->
+		<yjnssbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--减：不征税收入##本年累计金额-->
+			<jbzssrbnljje/>
+		</yjnssbGridlbVO>
+		<!--减：免税收入(4+5+10+11)-->
+		<yjnssbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--减：免税收入(4+5+10+11)##本年累计金额-->
+			<jmssrbnljje/>
+		</yjnssbGridlbVO>
+		<!--国债利息收入免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>4</ewbhxh>
+			<!--国债利息收入免征企业所得税##本年累计金额-->
+			<gzlxsrmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--符合条件的居民企业之间的股息、红利等权益性投资收益免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>5</ewbhxh>
+			<!--符合条件的居民企业之间的股息、红利等权益性投资收益免征企业所得税##本年累计金额-->
+			<fhtjdjmqyzjdgxhldqyxtzsymzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--其中：通过沪港通投资且连续持有H股满12个月取得的股息红利所得免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>6</ewbhxh>
+			<!--其中：通过沪港通投资且连续持有H股满12个月取得的股息红利所得免征企业所得税##本年累计金额-->
+			<qztghgttzqlxcygmgyqddgxhlsdmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--通过深港通投资且连续持有H股满12个月取得的股息红利所得免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>7</ewbhxh>
+			<!--通过深港通投资且连续持有H股满12个月取得的股息红利所得免征企业所得税##本年累计金额-->
+			<tgsgttzqlxcygmgyqddgxhlsdmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--居民企业持有创新企业CDR取得的股息红利所得免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>8</ewbhxh>
+			<!--居民企业持有创新企业CDR取得的股息红利所得免征企业所得税##本年累计金额-->
+			<jmqycycxqyqddgxhlsdmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--符合条件的居民企业之间属于股息、红利性质的永续债利息收入免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>9</ewbhxh>
+			<!--符合条件的居民企业之间属于股息、红利性质的永续债利息收入免征企业所得税##本年累计金额-->
+			<fhtjdjmqyzjsygxhlxzdyxzlxsrmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--投资者从证券投资基金分配中取得的收入免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>10</ewbhxh>
+			<!--投资者从证券投资基金分配中取得的收入免征企业所得税##本年累计金额-->
+			<tzzczqtzjjfpzqddsrmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--取得的地方政府债券利息收入免征企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>11</ewbhxh>
+			<!--取得的地方政府债券利息收入免征企业所得税##本年累计金额-->
+			<qdddfzfzqlxsrmzqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--应税收入额(1-2-3)成本费用总额-->
+		<yjnssbGridlbVO>
+			<ewbhxh>12</ewbhxh>
+			<!--应税收入额(1-2-3)成本费用总额##本年累计金额-->
+			<yssrecbfyzebnljje/>
+		</yjnssbGridlbVO>
+		<!--税务机关核定的应税所得率(%)-->
+		<yjnssbGridlbVO>
+			<ewbhxh>13</ewbhxh>
+			<!--税务机关核定的应税所得率(%)##本年累计金额-->
+			<swjghddyssdlbnljje/>
+		</yjnssbGridlbVO>
+		<!--应纳税所得额(第12x13行)[第12行/(1-第13行)x第13行]A-->
+		<yjnssbGridlbVO>
+			<ewbhxh>14</ewbhxh>
+			<!--应纳税所得额(第12x13行)[第12行/(1-第13行)x第13行]A##本年累计金额-->
+			<ynssdedxdxdxdxbnljje/>
+		</yjnssbGridlbVO>
+		<!--税率(25%)-->
+		<yjnssbGridlbVO>
+			<ewbhxh>15</ewbhxh>
+			<!--税率(25%)##本年累计金额-->
+			<slbnljje/>
+		</yjnssbGridlbVO>
+		<!--应纳所得税额(14x15)-->
+		<yjnssbGridlbVO>
+			<ewbhxh>16</ewbhxh>
+			<!--应纳所得税额(14x15)##本年累计金额-->
+			<ynsdsebnljje/>
+		</yjnssbGridlbVO>
+		<!--减：符合条件的小型微利企业减免企业所得税-->
+		<yjnssbGridlbVO>
+			<ewbhxh>17</ewbhxh>
+			<!--减：符合条件的小型微利企业减免企业所得税##本年累计金额-->
+			<jfhtjdxxwlqyjmqysdsbnljje/>
+		</yjnssbGridlbVO>
+		<!--减：实际已缴纳所得税额-->
+		<yjnssbGridlbVO>
+			<ewbhxh>18</ewbhxh>
+			<!--减：实际已缴纳所得税额##本年累计金额-->
+			<jsjyjnsdsebnljje/>
+		</yjnssbGridlbVO>
+		<!--本期应补(退)所得税额(16-17-18)税务机关核定本期应纳所得税额-->
+		<yjnssbGridlbVO>
+			<ewbhxh>19</ewbhxh>
+			<!--本期应补(退)所得税额(16-17-18)税务机关核定本期应纳所得税额##本年累计金额-->
+			<bqybtsdseswjghdbqynsdsebnljje/>
+		</yjnssbGridlbVO>
+		<!--民族自治地方的自治机关对本民族自治地方的企业-->
+		<yjnssbGridlbVO>
+			<ewbhxh>20</ewbhxh>
+			<!--民族自治地方的自治机关对本民族自治地方的企业##本年累计金额-->
+			<mzzzdfdzzjgdbmzzzdfdqybnljje/>
+		</yjnssbGridlbVO>
+		<!--本期实际应补(退)所得税额-->
+		<yjnssbGridlbVO>
+			<ewbhxh>21</ewbhxh>
+			<!--本期实际应补(退)所得税额##本年累计金额-->
+			<bqsjybtsdsebnljje/>
+		</yjnssbGridlbVO>
+		<!--季末从业人数-->
+		<yjnssbGridlbVO>
+			<ewbhxh>22</ewbhxh>
+			<!--季末从业人数##按   季   度   填   报   信   息-->
+			<jmcyrsajdtbxx/>
+			<!--季初从业人数##按   季   度   填   报   信   息-->
+			<jccyrsajdtbxx/>
+		</yjnssbGridlbVO>
+		<!--季初资产总额(万元)-->
+		<yjnssbGridlbVO>
+			<ewbhxh>23</ewbhxh>
+			<!--季初资产总额(万元)##按   季   度   填   报   信   息-->
+			<jczczewyajdtbxx/>
+			<!--季末资产总额(万元)##按   季   度   填   报   信   息-->
+			<jmzczewyajdtbxx/>
+		</yjnssbGridlbVO>
+		<!--国家限制或禁止行业-->
+		<yjnssbGridlbVO>
+			<ewbhxh>24</ewbhxh>
+			<!--国家限制或禁止行业##按   季   度   填   报   信   息-->
+			<gjxzhjzxyajdtbxx/>
+			<!--小型微利企业##按   季   度   填   报   信   息-->
+			<xxwlqyajdtbxx/>
+		</yjnssbGridlbVO>
+	</jsxgs_qysds_group_b_yjnssb>
+</jsxgs_qysds_group_bxxVO>

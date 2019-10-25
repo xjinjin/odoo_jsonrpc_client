@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsds_dffxxVO>
+	<sbbinfo>
+		<sbzlbh>10520</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--基金申报表-->
+	<jsds_dff_sbb>
+		<!--3000 工会经费-->
+		<sbbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--3000 工会经费##应征费额-->
+			<ghjfyzfe/>
+			<!--3000 工会经费##已预缴费额-->
+			<ghjfyyjfe/>
+			<!--3000 工会经费##计征依据-->
+			<ghjfjzyj/>
+			<!--3000 工会经费##计征率-->
+			<ghjfjzl/>
+			<!--3000 工会经费##费种-->
+			<ghjffz/>
+			<!--3000 工会经费##减免费额-->
+			<ghjfjmfe/>
+			<!--3000 工会经费##本期缴费额-->
+			<ghjfbqjfe/>
+		</sbbGridlbVO>
+		<!--其他税目-->
+		<sbbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--其他税目##本期缴费额-->
+			<qtsmbqjfe/>
+			<!--其他税目##已预缴费额-->
+			<qtsmyyjfe/>
+			<!--其他税目##减免费额-->
+			<qtsmjmfe/>
+			<!--其他税目##费种-->
+			<qtsmfz/>
+			<!--其他税目##计征率-->
+			<qtsmjzl/>
+			<!--其他税目##应征费额-->
+			<qtsmyzfe/>
+			<!--其他税目##计征依据-->
+			<qtsmjzyj/>
+		</sbbGridlbVO>
+		<!---->
+		<sbbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--##本期缴费额-->
+			<bqjfe/>
+			<!--##已预缴费额-->
+			<yyjfe/>
+			<!--##应征费额-->
+			<yzfe/>
+			<!--##计征依据-->
+			<jzyj/>
+			<!--##减免费额-->
+			<jmfe/>
+		</sbbGridlbVO>
+		<!--办理人员身份证件号码-->
+		<sbbGridlbVO>
+			<ewbhxh>4</ewbhxh>
+			<!--办理人员身份证件号码##应征费额-->
+			<blrysfzjhmyzfe/>
+			<!--办理人员身份证件类型##费种-->
+			<blrysfzjlxfz/>
+		</sbbGridlbVO>
+	</jsds_dff_sbb>
+</jsds_dffxxVO>

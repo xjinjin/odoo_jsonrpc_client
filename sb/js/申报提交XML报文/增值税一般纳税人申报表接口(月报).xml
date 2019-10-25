@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-
-# from sb.js.xml_dict.dict_xml import xml_to_dict
-
-xml = '''<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <jsxgs_zzs_ybnsrxxVO>
 	<sbbinfo>
 		<sbzlbh>10101</sbzlbh> <!-- 增值税一般纳税人申报表 申报种类编号 -->
@@ -2005,25 +2001,3 @@ xml = '''<?xml version="1.0" encoding="UTF-8"?>
 	  </qtkspzmxGridlbVO>
 	</jsxgs_zzs_ybnsr_qtkspzmxb>
 </jsxgs_zzs_ybnsrxxVO>
-'''
-# xml_dict = xml_to_dict(xml)
-# temp_dict = list(xml_dict.get('jsxgs_zzs_ybnsrxxVO').get('jsxgs_zzs_ybnsr_sbb').values())[0]
-# temp_dict = {'ewbhxh':'1','yybjsffjsqbzsxm13sldhwjjgxlxplwhjxxynse':'2','yybjsffjsqbzsxm13sldhwjjgxlxplwkjqtfpxse':'3'}
-# temp_list = list(temp_dict.keys())
-# temp_list_exe = list(temp_dict.keys()).remove('ewbhxh')
-# temp_list_exe = list(temp_dict.keys()).pop(0)
-
-# print(temp_list)
-# print(temp_list_exe)
-
-
-
-# with open('D:\git_jst\project\odoo_jsonrpc_client\sb\js\申报提交XML报文\印花税纳税申报（报告）表接口(月季报).xml','r',encoding='utf-8') as f:
-#     data = f.read()
-# print(data)
-
-import os
-# os.path.realpath(__file__)
-# os.path.dirname(os.path.realpath(__file__))
-# os.path.basename(os.path.realpath(__file__))
-

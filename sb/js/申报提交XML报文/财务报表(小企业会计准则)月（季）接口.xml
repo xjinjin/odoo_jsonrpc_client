@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsxgs_cwbb_xqykjzzxxVO>
+
+	<!-- 申报信息 -->
+	<sbbinfo>
+		<sbzlbh>29806</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-01-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-03-31</ssqz><!-- 所属期止 -->
+		<nsrsbh>91320104MA1WN56L7B</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+
+	<!-- 资产负债表 -->
+	<jsxgs_cwbb_xqykjzz_zcfzb>
+		<!--短期借款31	货币资金1-->
+		<zcfzbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--期末余额-->
+			<dqjkqmye> </dqjkqmye>
+			<!--年初余额-->
+			<hbzjncye> </hbzjncye>
+			<!--期末余额-->
+			<hbzjqmye> </hbzjqmye>
+			<!--年初余额-->
+			<dqjkncye> </dqjkncye>
+		</zcfzbGridlbVO>
+		<!--应付票据32	短期投资2-->
+		<zcfzbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--期末余额-->
+			<yfpjqmye> </yfpjqmye>
+			<!--期末余额-->
+			<dqtzqmye> </dqtzqmye>
+			<!--年初余额-->
+			<yfpjncye> </yfpjncye>
+			<!--年初余额-->
+			<dqtzncye> </dqtzncye>
+		</zcfzbGridlbVO>
+		<!--应收票据3	应付账款33-->
+		<zcfzbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--期末余额-->
+			<yspjqmye> </yspjqmye>
+			<!--年初余额-->
+			<yfzkncye> </yfzkncye>
+			<!--期末余额-->
+			<yfzkqmye> </yfzkqmye>
+			<!--年初余额-->
+			<yspjncye> </yspjncye>
+		</zcfzbGridlbVO>
+		<!--预收帐款34	应收账款4-->
+		<zcfzbGridlbVO>
+			<ewbhxh>4</ewbhxh>
+			<!--应收账款##期末余额-->
+			<ygszkqmye> </ygszkqmye>
+			<!--预收帐款##期末余额-->
+			<yszkqmye> </yszkqmye>
+			<!--应收账款##年初余额-->
+			<ygszkncye> </ygszkncye>
+			<!--预收帐款##年初余额-->
+			<yszkncye> </yszkncye>
+		</zcfzbGridlbVO>
+		<!--预付账款5	应付职工薪酬35-->
+		<zcfzbGridlbVO>
+			<ewbhxh>5</ewbhxh>
+			<!--期末余额-->
+			<yfzkqmye> </yfzkqmye>
+			<!--年初余额-->
+			<yfzkncye> </yfzkncye>
+			<!--年初余额-->
+			<yfzgxcncye> </yfzgxcncye>
+			<!--期末余额-->
+			<yfzgxcqmye> </yfzgxcqmye>
+		</zcfzbGridlbVO>
+		<!--应收股利6	应交税费36-->
+		<zcfzbGridlbVO>
+			<ewbhxh>6</ewbhxh>
+			<!--期末余额-->
+			<ysglqmye> </ysglqmye>
+			<!--期末余额-->
+			<yjsfqmye> </yjsfqmye>
+			<!--年初余额-->
+			<yjsfncye> </yjsfncye>
+			<!--年初余额-->
+			<ysglncye> </ysglncye>
+		</zcfzbGridlbVO>
+		<!--应付利息7	应收利息37-->
+		<zcfzbGridlbVO>
+			<ewbhxh>7</ewbhxh>
+			<!--年初余额-->
+			<yflxncye> </yflxncye>
+			<!--期末余额-->
+			<yslxqmye> </yslxqmye>
+			<!--年初余额-->
+			<yslxncye> </yslxncye>
+			<!--期末余额-->
+			<yflxqmye> </yflxqmye>
+		</zcfzbGridlbVO>
+		<!--其他应收款8	应付利润38-->
+		<zcfzbGridlbVO>
+			<ewbhxh>8</ewbhxh>
+			<!--年初余额-->
+			<yflrncye> </yflrncye>
+			<!--年初余额-->
+			<qtyskncye> </qtyskncye>
+			<!--期末余额-->
+			<qtyskqmye> </qtyskqmye>
+			<!--期末余额-->
+			<yflrqmye> </yflrqmye>
+		</zcfzbGridlbVO>
+		<!--其他应付款39	存货9-->
+		<zcfzbGridlbVO>
+			<ewbhxh>9</ewbhxh>
+			<!--期末余额-->
+			<chqmye> </chqmye>
+			<!--年初余额-->
+			<qtyfkncye> </qtyfkncye>
+			<!--年初余额-->
+			<chncye> </chncye>
+			<!--期末余额-->
+			<qtyfkqmye> </qtyfkqmye>
+		</zcfzbGridlbVO>
+		<!--其中：原材料10	其他流动负债40-->
+		<zcfzbGridlbVO>
+			<ewbhxh>10</ewbhxh>
+			<!--期末余额-->
+			<qtldfzqmye> </qtldfzqmye>
+			<!--年初余额-->
+			<qzyclncye> </qzyclncye>
+			<!--期末余额-->
+			<qzyclqmye> </qzyclqmye>
+			<!--年初余额-->
+			<qtldfzncye> </qtldfzncye>
+		</zcfzbGridlbVO>
+		<!--在产品11	流动负债合计41-->
+		<zcfzbGridlbVO>
+			<ewbhxh>11</ewbhxh>
+			<!--年初余额-->
+			<zcpncye> </zcpncye>
+			<!--期末余额-->
+			<ldfzhjqmye> </ldfzhjqmye>
+			<!--期末余额-->
+			<zcpqmye> </zcpqmye>
+			<!--年初余额-->
+			<ldfzhjncye> </ldfzhjncye>
+		</zcfzbGridlbVO>
+		<!--库存材料12	非流动负债-->
+		<zcfzbGridlbVO>
+			<ewbhxh>12</ewbhxh>
+			<!--年初余额-->
+			<kcclncye> </kcclncye>
+			<!--期末余额-->
+			<kcclqmye> </kcclqmye>
+		</zcfzbGridlbVO>
+		<!--周转材料13	长期借款42-->
+		<zcfzbGridlbVO>
+			<ewbhxh>13</ewbhxh>
+			<!--期末余额-->
+			<zzclqmye> </zzclqmye>
+			<!--期末余额-->
+			<zqjkqmye> </zqjkqmye>
+			<!--年初余额-->
+			<zzclncye> </zzclncye>
+			<!--年初余额-->
+			<zqjkncye> </zqjkncye>
+		</zcfzbGridlbVO>
+		<!--其他流动资产14	长期应付款43-->
+		<zcfzbGridlbVO>
+			<ewbhxh>14</ewbhxh>
+			<!--年初余额-->
+			<zqyfkncye> </zqyfkncye>
+			<!--期末余额-->
+			<qtldzcqmye> </qtldzcqmye>
+			<!--年初余额-->
+			<qtldzcncye> </qtldzcncye>
+			<!--期末余额-->
+			<zqyfkqmye> </zqyfkqmye>
+		</zcfzbGridlbVO>
+		<!--流动资产合计15	递延收益44-->
+		<zcfzbGridlbVO>
+			<ewbhxh>15</ewbhxh>
+			<!--期末余额-->
+			<dysyqmye> </dysyqmye>
+			<!--期末余额-->
+			<ldzchjqmye> </ldzchjqmye>
+			<!--年初余额-->
+			<ldzchjncye> </ldzchjncye>
+			<!--年初余额-->
+			<dysyncye> </dysyncye>
+		</zcfzbGridlbVO>
+		<!--非流动资产	其他非流动负债45-->
+		<zcfzbGridlbVO>
+			<ewbhxh>16</ewbhxh>
+			<!--年初余额-->
+			<qtfldfzncye> </qtfldfzncye>
+			<!--期末余额-->
+			<qtfldfzqmye> </qtfldfzqmye>
+		</zcfzbGridlbVO>
+		<!--长期债券投资16	非流动负债合计46-->
+		<zcfzbGridlbVO>
+			<ewbhxh>17</ewbhxh>
+			<!--年初余额-->
+			<fldfzhjncye> </fldfzhjncye>
+			<!--年初余额-->
+			<zqzqtzncye> </zqzqtzncye>
+			<!--期末余额-->
+			<zqzqtzqmye> </zqzqtzqmye>
+			<!--期末余额-->
+			<fldfzhjqmye> </fldfzhjqmye>
+		</zcfzbGridlbVO>
+		<!--长期股权投资17	负债合计47-->
+		<zcfzbGridlbVO>
+			<ewbhxh>18</ewbhxh>
+			<!--期末余额-->
+			<zqgqtzqmye> </zqgqtzqmye>
+			<!--年初余额-->
+			<fzhjncye> </fzhjncye>
+			<!--期末余额-->
+			<fzhjqmye> </fzhjqmye>
+			<!--年初余额-->
+			<zqgqtzncye> </zqgqtzncye>
+		</zcfzbGridlbVO>
+		<!--固定资产原价18-->
+		<zcfzbGridlbVO>
+			<ewbhxh>19</ewbhxh>
+			<!--年初余额-->
+			<gdzcyjncye> </gdzcyjncye>
+			<!--期末余额-->
+			<gdzcyjqmye> </gdzcyjqmye>
+		</zcfzbGridlbVO>
+		<!--减：累计折旧19-->
+		<zcfzbGridlbVO>
+			<ewbhxh>20</ewbhxh>
+			<!--年初余额-->
+			<jljzjncye> </jljzjncye>
+			<!--期末余额-->
+			<jljzjqmye> </jljzjqmye>
+		</zcfzbGridlbVO>
+		<!--固定资产账面价值20-->
+		<zcfzbGridlbVO>
+			<ewbhxh>21</ewbhxh>
+			<!--年初余额-->
+			<gdzczmjzncye> </gdzczmjzncye>
+			<!--期末余额-->
+			<gdzczmjzqmye> </gdzczmjzqmye>
+		</zcfzbGridlbVO>
+		<!--在建工程21-->
+		<zcfzbGridlbVO>
+			<ewbhxh>22</ewbhxh>
+			<!--年初余额-->
+			<zjgcncye> </zjgcncye>
+			<!--期末余额-->
+			<zjgcqmye> </zjgcqmye>
+		</zcfzbGridlbVO>
+		<!--工程物资22-->
+		<zcfzbGridlbVO>
+			<ewbhxh>23</ewbhxh>
+			<!--年初余额-->
+			<gcwzncye> </gcwzncye>
+			<!--期末余额-->
+			<gcwzqmye> </gcwzqmye>
+		</zcfzbGridlbVO>
+		<!--固定资产清理23-->
+		<zcfzbGridlbVO>
+			<ewbhxh>24</ewbhxh>
+			<!--期末余额-->
+			<gdzcqlqmye> </gdzcqlqmye>
+			<!--年初余额-->
+			<gdzcqlncye> </gdzcqlncye>
+		</zcfzbGridlbVO>
+		<!--生产性生物资产24	所有者权益（或股东权益）-->
+		<zcfzbGridlbVO>
+			<ewbhxh>25</ewbhxh>
+			<!--年初余额-->
+			<scxswzcncye> </scxswzcncye>
+			<!--期末余额-->
+			<scxswzcqmye> </scxswzcqmye>
+		</zcfzbGridlbVO>
+		<!--无形资产25	实收资本（或股本）48-->
+		<zcfzbGridlbVO>
+			<ewbhxh>26</ewbhxh>
+			<!--期末余额-->
+			<wxzcqmye> </wxzcqmye>
+			<!--年初余额-->
+			<wxzcncye> </wxzcncye>
+			<!--期末余额-->
+			<sszbhgbqmye> </sszbhgbqmye>
+			<!--年初余额-->
+			<sszbhgbncye> </sszbhgbncye>
+		</zcfzbGridlbVO>
+		<!--开发支出26	资本公积49-->
+		<zcfzbGridlbVO>
+			<ewbhxh>27</ewbhxh>
+			<!--期末余额-->
+			<zbgjqmye> </zbgjqmye>
+			<!--年初余额-->
+			<zbgjncye> </zbgjncye>
+			<!--年初余额-->
+			<kfzcncye> </kfzcncye>
+			<!--期末余额-->
+			<kfzcqmye> </kfzcqmye>
+		</zcfzbGridlbVO>
+		<!--长期待摊费用27	盈余公积50-->
+		<zcfzbGridlbVO>
+			<ewbhxh>28</ewbhxh>
+			<!--期末余额-->
+			<zqdtfyqmye> </zqdtfyqmye>
+			<!--年初余额-->
+			<zqdtfyncye> </zqdtfyncye>
+			<!--期末余额-->
+			<yygjqmye> </yygjqmye>
+			<!--年初余额-->
+			<yygjncye> </yygjncye>
+		</zcfzbGridlbVO>
+		<!--其他非流动资产28	未分配利润51-->
+		<zcfzbGridlbVO>
+			<ewbhxh>29</ewbhxh>
+			<!--年初余额-->
+			<wfplrncye> </wfplrncye>
+			<!--年初余额-->
+			<qtfldzcncye> </qtfldzcncye>
+			<!--期末余额-->
+			<wfplrqmye> </wfplrqmye>
+			<!--期末余额-->
+			<qtfldzcqmye> </qtfldzcqmye>
+		</zcfzbGridlbVO>
+		<!--非流动资产合计29	所有者权益（或股东权益）合计52-->
+		<zcfzbGridlbVO>
+			<ewbhxh>30</ewbhxh>
+			<!--年初余额-->
+			<syzqyhjncye> </syzqyhjncye>
+			<!--期末余额-->
+			<syzqyhjqmye> </syzqyhjqmye>
+			<!--年初余额-->
+			<fldzchjncye> </fldzchjncye>
+			<!--期末余额-->
+			<fldzchjqmye> </fldzchjqmye>
+		</zcfzbGridlbVO>
+		<!--资产合计30	负债和所有者权益（或股东权益）总计53-->
+		<zcfzbGridlbVO>
+			<ewbhxh>31</ewbhxh>
+			<!--年初余额-->
+			<zchjncye> </zchjncye>
+			<!--期末余额-->
+			<zchjqmye> </zchjqmye>
+			<!--期末余额-->
+			<fzhsyzqyhjqmye> </fzhsyzqyhjqmye>
+			<!--年初余额-->
+			<fzhsyzqyhjncye> </fzhsyzqyhjncye>
+		</zcfzbGridlbVO>
+	</jsxgs_cwbb_xqykjzz_zcfzb>
+
+	<!-- 利润表 -->
+	<jsxgs_cwbb_xqykjzz_lrb>
+		<!--一、营业收入1-->
+		<lrbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--本年累计金额-->
+			<yyysrbnljje>{{record.yyysrbnljje}}</yyysrbnljje>
+			<!--本月金额-->
+			<yyysrbyje> </yyysrbyje>
+		</lrbGridlbVO>
+		<!--减：营业成本2-->
+		<lrbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--本年累计金额-->
+			<jyycbbnljje> </jyycbbnljje>
+			<!--本月金额-->
+			<jyycbbyje> </jyycbbyje>
+		</lrbGridlbVO>
+		<!--营业税金及附加3-->
+		<lrbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--本年累计金额-->
+			<yysjjfjbnljje> </yysjjfjbnljje>
+			<!--本月金额-->
+			<yysjjfjbyje> </yysjjfjbyje>
+		</lrbGridlbVO>
+		<!--其中：消费税4-->
+		<lrbGridlbVO>
+			<ewbhxh>4</ewbhxh>
+			<!--本月金额-->
+			<qzxfsbyje> </qzxfsbyje>
+			<!--本年累计金额-->
+			<qzxfsbnljje> </qzxfsbnljje>
+		</lrbGridlbVO>
+		<!--营业税-->
+		<lrbGridlbVO>
+			<ewbhxh>5</ewbhxh>
+			<!--本年累计金额-->
+			<yysbnljje> </yysbnljje>
+			<!--本月金额-->
+			<yysbyje> </yysbyje>
+		</lrbGridlbVO>
+		<!--城市建设维护税-->
+		<lrbGridlbVO>
+			<ewbhxh>6</ewbhxh>
+			<!--本月金额-->
+			<csjswhsbyje> </csjswhsbyje>
+			<!--本年累计金额-->
+			<csjswhsbnljje> </csjswhsbnljje>
+		</lrbGridlbVO>
+		<!--资源税-->
+		<lrbGridlbVO>
+			<ewbhxh>7</ewbhxh>
+			<!--本月金额-->
+			<zysbyje> </zysbyje>
+			<!--本年累计金额-->
+			<zysbnljje> </zysbnljje>
+		</lrbGridlbVO>
+		<!--土地增值税-->
+		<lrbGridlbVO>
+			<ewbhxh>8</ewbhxh>
+			<!--本年累计金额-->
+			<tdzzsbnljje> </tdzzsbnljje>
+			<!--本月金额-->
+			<tdzzsbyje> </tdzzsbyje>
+		</lrbGridlbVO>
+		<!--城镇土地使用税、房产税、车船税、印花税-->
+		<lrbGridlbVO>
+			<ewbhxh>9</ewbhxh>
+			<!--本年累计金额-->
+			<cztdsysfcsccsyhsbnljje> </cztdsysfcsccsyhsbnljje>
+			<!--本月金额-->
+			<cztdsysfcsccsyhsbyje> </cztdsysfcsccsyhsbyje>
+		</lrbGridlbVO>
+		<!--教育附加、矿产资源、排污费-->
+		<lrbGridlbVO>
+			<ewbhxh>10</ewbhxh>
+			<!--本月金额-->
+			<jyfjkczypwfbyje> </jyfjkczypwfbyje>
+			<!--本年累计金额-->
+			<jyfjkczypwfbnljje> </jyfjkczypwfbnljje>
+		</lrbGridlbVO>
+		<!--销售费用-->
+		<lrbGridlbVO>
+			<ewbhxh>11</ewbhxh>
+			<!--本月金额-->
+			<xsfybyje> </xsfybyje>
+			<!--本年累计金额-->
+			<xsfybnljje> </xsfybnljje>
+		</lrbGridlbVO>
+		<!--其中：商品维修费-->
+		<lrbGridlbVO>
+			<ewbhxh>12</ewbhxh>
+			<!--本年累计金额-->
+			<qzspwxfbnljje> </qzspwxfbnljje>
+			<!--本月金额-->
+			<qzspwxfbyje> </qzspwxfbyje>
+		</lrbGridlbVO>
+		<!--广告费和业务宣传费-->
+		<lrbGridlbVO>
+			<ewbhxh>13</ewbhxh>
+			<!--本年累计金额-->
+			<ggfhywxcfbnljje> </ggfhywxcfbnljje>
+			<!--本月金额-->
+			<ggfhywxcfbyje> </ggfhywxcfbyje>
+		</lrbGridlbVO>
+		<!--管理费用-->
+		<lrbGridlbVO>
+			<ewbhxh>14</ewbhxh>
+			<!--本年累计金额-->
+			<glfybnljje> </glfybnljje>
+			<!--本月金额-->
+			<glfybyje> </glfybyje>
+		</lrbGridlbVO>
+		<!--其中：开办费-->
+		<lrbGridlbVO>
+			<ewbhxh>15</ewbhxh>
+			<!--本月金额-->
+			<qzkbfbyje> </qzkbfbyje>
+			<!--本年累计金额-->
+			<qzkbfbnljje> </qzkbfbnljje>
+		</lrbGridlbVO>
+		<!--业务招待费-->
+		<lrbGridlbVO>
+			<ewbhxh>16</ewbhxh>
+			<!--本月金额-->
+			<ywzdfbyje> </ywzdfbyje>
+			<!--本年累计金额-->
+			<ywzdfbnljje> </ywzdfbnljje>
+		</lrbGridlbVO>
+		<!--研究费用-->
+		<lrbGridlbVO>
+			<ewbhxh>17</ewbhxh>
+			<!--本年累计金额-->
+			<yjfybnljje> </yjfybnljje>
+			<!--本月金额-->
+			<yjfybyje> </yjfybyje>
+		</lrbGridlbVO>
+		<!--财务费用-->
+		<lrbGridlbVO>
+			<ewbhxh>18</ewbhxh>
+			<!--本月金额-->
+			<cwfybyje> </cwfybyje>
+			<!--本年累计金额-->
+			<cwfybnljje> </cwfybnljje>
+		</lrbGridlbVO>
+		<!--其中：利息费用(收入以-号填列)-->
+		<lrbGridlbVO>
+			<ewbhxh>19</ewbhxh>
+			<!--本月金额-->
+			<qzlxfysryhtlbyje> </qzlxfysryhtlbyje>
+			<!--本年累计金额-->
+			<qzlxfysryhtlbnljje> </qzlxfysryhtlbnljje>
+		</lrbGridlbVO>
+		<!--加：投资收益-->
+		<lrbGridlbVO>
+			<ewbhxh>20</ewbhxh>
+			<!--本年累计金额-->
+			<jtzsybnljje> </jtzsybnljje>
+			<!--本月金额-->
+			<jtzsybyje> </jtzsybyje>
+		</lrbGridlbVO>
+		<!--二、营业利润-->
+		<lrbGridlbVO>
+			<ewbhxh>21</ewbhxh>
+			<!--本年累计金额-->
+			<eyylrbnljje> </eyylrbnljje>
+			<!--本月金额-->
+			<eyylrbyje> </eyylrbyje>
+		</lrbGridlbVO>
+		<!--加：营业外收入-->
+		<lrbGridlbVO>
+			<ewbhxh>22</ewbhxh>
+			<!--本月金额-->
+			<jyywsrbyje> </jyywsrbyje>
+			<!--本年累计金额-->
+			<jyywsrbnljje> </jyywsrbnljje>
+		</lrbGridlbVO>
+		<!--其中：政府补助-->
+		<lrbGridlbVO>
+			<ewbhxh>23</ewbhxh>
+			<!--本年累计金额-->
+			<qzzfbzbnljje> </qzzfbzbnljje>
+			<!--本月金额-->
+			<qzzfbzbyje> </qzzfbzbyje>
+		</lrbGridlbVO>
+		<!--减：营业外支出-->
+		<lrbGridlbVO>
+			<ewbhxh>24</ewbhxh>
+			<!--本月金额-->
+			<jyywzcbyje> </jyywzcbyje>
+			<!--本年累计金额-->
+			<jyywzcbnljje> </jyywzcbnljje>
+		</lrbGridlbVO>
+		<!--其中：坏账损失-->
+		<lrbGridlbVO>
+			<ewbhxh>25</ewbhxh>
+			<!--本年累计金额-->
+			<qzhzssbnljje> </qzhzssbnljje>
+			<!--本月金额-->
+			<qzhzssbyje> </qzhzssbyje>
+		</lrbGridlbVO>
+		<!--无法收回的长期债券投资损失-->
+		<lrbGridlbVO>
+			<ewbhxh>26</ewbhxh>
+			<!--本年累计金额-->
+			<wfshdzqzqtzssbnljje> </wfshdzqzqtzssbnljje>
+			<!--本月金额-->
+			<wfshdzqzqtzssbyje> </wfshdzqzqtzssbyje>
+		</lrbGridlbVO>
+		<!--无法收回的长期股权投资损失-->
+		<lrbGridlbVO>
+			<ewbhxh>27</ewbhxh>
+			<!--本月金额-->
+			<wfshdzqgqtzssbyje> </wfshdzqgqtzssbyje>
+			<!--本年累计金额-->
+			<wfshdzqgqtzssbnljje> </wfshdzqgqtzssbnljje>
+		</lrbGridlbVO>
+		<!--自然灾害等不可抗力因素造成的损失-->
+		<lrbGridlbVO>
+			<ewbhxh>28</ewbhxh>
+			<!--本年累计金额-->
+			<zrzhdbkklyszcdssbnljje> </zrzhdbkklyszcdssbnljje>
+			<!--本月金额-->
+			<zrzhdbkklyszcdssbyje> </zrzhdbkklyszcdssbyje>
+		</lrbGridlbVO>
+		<!--税收滞纳金-->
+		<lrbGridlbVO>
+			<ewbhxh>29</ewbhxh>
+			<!--本月金额-->
+			<ssznjbyje> </ssznjbyje>
+			<!--本年累计金额-->
+			<ssznjbnljje> </ssznjbnljje>
+		</lrbGridlbVO>
+		<!--三、利润总额-->
+		<lrbGridlbVO>
+			<ewbhxh>30</ewbhxh>
+			<!--本月金额-->
+			<slrzebyje> </slrzebyje>
+			<!--本年累计金额-->
+			<slrzebnljje> </slrzebnljje>
+		</lrbGridlbVO>
+		<!--减：所得税费用-->
+		<lrbGridlbVO>
+			<ewbhxh>31</ewbhxh>
+			<!--本年累计金额-->
+			<jsdsfybnljje> </jsdsfybnljje>
+			<!--本月金额-->
+			<jsdsfybyje> </jsdsfybyje>
+		</lrbGridlbVO>
+		<!--四、净利润-->
+		<lrbGridlbVO>
+			<ewbhxh>32</ewbhxh>
+			<!--本月金额-->
+			<sjlrbyje> </sjlrbyje>
+			<!--本年累计金额-->
+			<sjlrbnljje> </sjlrbnljje>
+		</lrbGridlbVO>
+	</jsxgs_cwbb_xqykjzz_lrb>
+
+	<!-- 现金流量表 -->
+	<jsxgs_cwbb_xqykjzz_xjllb/>
+</jsxgs_cwbb_xqykjzzxxVO>

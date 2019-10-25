@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jsds_dff_oncexxVO>
+	<sbbinfo>
+		<sbzlbh>C0502</sbzlbh> <!-- 地方各项基金费申报表（选报）基金申报表 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<jtnsrsbh>91110108797594415B</jtnsrsbh><!-- 集团纳税人识别号 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>JS</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--地方各项基金费申报表（选报）基金申报表 -->
+	<jsds_dff_once_sbb>
+		<!---->
+		<sbbGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<!--本期缴费额-->
+			<bqjfe/>
+			<!--已预缴费额-->
+			<yyjfe/>
+			<!--应征费额-->
+			<yzfe/>
+			<!--计征依据-->
+			<jzyj/>
+			<!--费种-->
+			<fz/>
+			<!--计征率-->
+			<jzl/>
+			<!--减免费额-->
+			<jmfe/>
+		</sbbGridlbVO>
+		<!--其他税目-->
+		<sbbGridlbVO>
+			<ewbhxh>2</ewbhxh>
+			<!--本期缴费额-->
+			<bqjfe/>
+			<!--已预缴费额-->
+			<yyjfe/>
+			<!--减免费额-->
+			<jmfe/>
+			<!--费种-->
+			<fz/>
+			<!--计征率-->
+			<jzl/>
+			<!--应征费额-->
+			<yzfe/>
+			<!--计征依据-->
+			<jzyj/>
+		</sbbGridlbVO>
+		<!--合计-->
+		<sbbGridlbVO>
+			<ewbhxh>3</ewbhxh>
+			<!--本期缴费额-->
+			<bqjfe/>
+			<!--计征依据-->
+			<jzyj/>
+			<!--应征费额-->
+			<yzfe/>
+		</sbbGridlbVO>
+	</jsds_dff_once_sbb>
+</jsds_dff_oncexxVO>

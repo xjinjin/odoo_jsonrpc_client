@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grsds_zhsbsdxxVO>
+	<sbbinfo>
+		<sbzlbh>90201</sbzlbh> <!-- 申报种类编号 -->
+		<ssqq>2019-02-01</ssqq><!-- 所属期起 -->
+		<ssqz>2019-02-28</ssqz><!-- 所属期止 -->
+		<nsrsbh>91110108MA01ATW72J</nsrsbh><!-- 申报的纳税人识别号 -->
+		<area>32</area><!-- 区域 -->
+		<nsqxdm>1</nsqxdm><!--纳税期限代码  1:月 2:季 3:半年 4:年 5:次-->
+	</sbbinfo>
+	<!--综合所得申报表	人员信息-->
+	<grsds_zhsbsd_ryxx>
+		<!--0_floating_r5_-->
+		<ryxxGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--备注-->
+			<bz/>
+			<!--居住地址(详细地址)-->
+			<jzdzxxdz/>
+			<!--是否残疾-->
+			<sfcj/>
+			<!--是否烈属-->
+			<sfls/>
+			<!--*证照类型-->
+			<zzlx/>
+			<!--居住地址(区县)-->
+			<jzdzqx/>
+			<!--*任职受雇从业类型-->
+			<rzsgcylx/>
+			<!--户籍所在地(区县)-->
+			<hjszdqx/>
+			<!--是否境外人员-->
+			<sfjwry/>
+			<!--户籍所在地(省)-->
+			<hjszdsh/>
+			<!--居住地址(市)-->
+			<jzdzs/>
+			<!--联系地址(详细地址)-->
+			<lxdzxxdz/>
+			<!--工号-->
+			<gh/>
+			<!--*人员状态-->
+			<ryzt/>
+			<!--烈属证号-->
+			<lszh/>
+			<!--联系地址(区县)-->
+			<lxdzqx/>
+			<!--*出生日期-->
+			<csrq/>
+			<!--残疾证号-->
+			<cjzh/>
+			<!--联系地址(市)-->
+			<lxdzs/>
+			<!--任职受雇从业日期-->
+			<rzsgcyrq/>
+			<!--离职日期-->
+			<lzrq/>
+			<!--户籍所在地(详细地址)-->
+			<hjszdxxdz/>
+			<!--学历-->
+			<xl/>
+			<!--预计离境时间-->
+			<yjljsj/>
+			<!--出生国家(地区)-->
+			<csgjdq/>
+			<!--中文名-->
+			<zwm/>
+			<!--户籍所在地(市)-->
+			<hjszds/>
+			<!--个人投资比例(%)-->
+			<grtzbl/>
+			<!--是否孤老-->
+			<sfgl/>
+			<!--职务-->
+			<zw/>
+			<!--其他证照类型-->
+			<qtzzlx/>
+			<!--*性别-->
+			<xb/>
+			<!--其他证照号码-->
+			<qtzzhm/>
+			<!--开户银行-->
+			<khyx/>
+			<!--*姓名-->
+			<xm/>
+			<!--个人投资额-->
+			<grtze/>
+			<!--*证照号码-->
+			<zzhm/>
+			<!--首次入境时间-->
+			<scrjsj/>
+			<!--居住地址(省)-->
+			<jzdzsh/>
+			<!--银行账号-->
+			<yxzh/>
+			<!--电子邮箱-->
+			<dzyx/>
+			<!--联系地址(省)-->
+			<lxdzsh/>
+			<!--手机号码-->
+			<sjhm/>
+			<!--*国籍(地区)-->
+			<gjdq/>
+		</ryxxGridlbVO>
+	</grsds_zhsbsd_ryxx>
+	<!--综合所得申报表	正常人员薪资-->
+	<grsds_zhsbsd_zcgzxksd>
+		<!--1_floating_r5_-->
+		<zcgzxksdGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--工号-->
+			<gh/>
+			<!--基本养老保险费-->
+			<jbylbxf/>
+			<!--税延养老保险-->
+			<syylbx/>
+			<!--累计住房贷款利息-->
+			<ljzfdklx/>
+			<!--姓名-->
+			<xm/>
+			<!--本期免税收入-->
+			<bqmssr/>
+			<!--*本期收入-->
+			<bqsr/>
+			<!--*证照号码-->
+			<zzhm/>
+			<!--备注-->
+			<bz/>
+			<!--*证照类型-->
+			<zzlx/>
+			<!--其他-->
+			<qt/>
+			<!--累计住房租金-->
+			<ljzfzj/>
+			<!--减免税额-->
+			<jmse/>
+			<!--失业保险费-->
+			<sybxf/>
+			<!--累计继续教育-->
+			<ljjxjy/>
+			<!--商业健康保险-->
+			<syjkbx/>
+			<!--准予扣除的捐赠额-->
+			<zykcdjze/>
+			<!--住房公积金-->
+			<zfgjj/>
+			<!--企业(职业)年金-->
+			<qyzynj/>
+			<!--累计子女教育-->
+			<ljznjy/>
+			<!--累计赡养老人-->
+			<ljsylr/>
+			<!--基本医疗保险费-->
+			<jbyilbxf/>
+		</zcgzxksdGridlbVO>
+	</grsds_zhsbsd_zcgzxksd>
+	<!--综合所得申报表	劳务报酬-->
+	<grsds_zhsbsd_lwbcsd>
+		<!--2_floating_r5_-->
+		<lwbcsdGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--商业健康保险-->
+			<syjkbx/>
+			<!--其他-->
+			<qt/>
+			<!--备注-->
+			<bz/>
+			<!--*证照类型-->
+			<zzlx/>
+			<!--税延养老保险-->
+			<syylbx/>
+			<!--减免税额-->
+			<jmse/>
+			<!--本期免税收入-->
+			<bqmssr/>
+			<!--工号-->
+			<gh/>
+			<!--*本期收入-->
+			<bqsr/>
+			<!--*证照号码-->
+			<zzhm/>
+			<!--*所得项目-->
+			<sdxm/>
+			<!--准予扣除的捐赠额-->
+			<zykcdjze/>
+			<!--姓名-->
+			<xm/>
+		</lwbcsdGridlbVO>
+	</grsds_zhsbsd_lwbcsd>
+	<!--综合所得申报表	全年一次性奖金-->
+	<grsds_zhsbsd_qnycxjjsr>
+		<!---->
+		<qnycxjjsrGridlbVO>
+			<ewbhxh>1</ewbhxh>
+			<floatrow>1</floatrow>
+			<!--税延养老保险-->
+			<syylbx/>
+			<!--*证照号码-->
+			<zzhm/>
+			<!--工号-->
+			<gh/>
+			<!--商业健康保险-->
+			<syjkbx/>
+			<!--企业(职业)年金-->
+			<qyzynj/>
+			<!--其他-->
+			<qt/>
+			<!--姓名-->
+			<xm/>
+			<!--减免税额-->
+			<jmse/>
+			<!--免税收入-->
+			<mssr/>
+			<!--已扣缴税额-->
+			<ykjse/>
+			<!--备注-->
+			<bz/>
+			<!--*全年一次性奖金额-->
+			<qnycxjje/>
+			<!--*证照类型-->
+			<zzlx/>
+			<!--准予扣除的捐赠额-->
+			<zykcdjze/>
+		</qnycxjjsrGridlbVO>
+	</grsds_zhsbsd_qnycxjjsr>
+	<!--综合所得申报表	减免事项附表-->
+	<grsds_zhsbsd_jmsxfb/>
+	<!--综合所得申报表	商业健康保险附表-->
+	<grsds_zhsbsd_syjkbxfb/>
+	<!--综合所得申报表	税延养老保险附表-->
+	<grsds_zhsbsd_syylbxfb/>
+	<!-- 专项人员信息-->
+	<zxryxxVO>
+	<Item>
+	<!--首页 -->
+	<gzZxfjkcsy>
+		<!-- 扣除年度-->
+		<kKjnd>0</kKjnd>
+		<!--人员姓名 -->
+		<kRyxm>str</kRyxm>
+		<!--  证件类型-->
+		<kZjlx>str</kZjlx>
+		<!--证件号码 -->
+		<kZjhm>str</kZjhm>
+		<!--配偶标志   0-无  1-有 -->
+		<kPobz>str</kPobz>
+		<!--配偶姓名 -->
+		<kPoxm>str</kPoxm>
+		<!-- 配偶证件类型-->
+		<kPozjlx>str</kPozjlx>
+		<!--  配偶证件号码-->
+		<kPozjhm>str</kPozjhm>
+		<!--独生子女标志  0-否  1-是 -->
+		<kDsznbz>str</kDsznbz>
+		<!-- 赡养老人分摊方式-->
+		<kSylrftfs>str</kSylrftfs>
+		<!--养老人本年度月扣除金额 -->
+		<kSylrbndykcje>BigDecimal</kSylrbndykcje>
+	</gzZxfjkcsy>
+
+	<!--子女信息 -->
+	<gzZxfjkcZnjy>
+		<!--子女姓名-->
+		<kZnxm row="1">str</kZnxm>
+		<!--证件类型 -->
+		<kZjlx row="1">str</kZjlx>
+		<!--证件号码 -->
+		<kZjhm row="1">str</kZjhm>
+		<!-- 出生日期-->
+		<kCsrq row="1">1547449091232</kCsrq>
+		<!--  国籍-->
+		<kGj row="1">str</kGj>
+		<!-- 当前受教育阶段-->
+		<kDqsjyjd row="1">str</kDqsjyjd>
+		<!-- 当前受教育阶段起始时间-->
+		<kDqsjyjdqssj row="1">1547449091232</kDqsjyjdqssj>
+		<!-- 当前受教育阶段结束时间-->
+		<kDqsjyjdjssj row="1">1547449091232</kDqsjyjdjssj>
+		<!-- 教育终止时间-->
+		<kJyzzsj row="1">1547449091232</kJyzzsj>
+		<!-- 当前就读国籍-->
+		<kDqjdqj row="1">str</kDqjdqj>
+		<!-- 当前就读学校-->
+		<kDqjdxx row="1">str</kDqjdxx>
+		<!-- 本人扣除比例-->
+		<kBrkcbl row="1">BigDecimal</kBrkcbl>
+	</gzZxfjkcZnjy>
+
+	<!--住房租金 -->
+	<gzZxfjkcZfzj>
+
+		<!--主要工作省份 -->
+		<kProvince row="1">str</kProvince>
+		<!-- 主要工作城市-->
+		<kCity row="1">str</kCity>
+		<!--出租方类型 -->
+		<kCzflx row="1">str</kCzflx>
+		<!--出租方姓名（组织名称） -->
+		<kCzfxm row="1">str</kCzfxm>
+		<!-- 出租方证件类型-->
+		<kCzfzjlx row="1">str</kCzfzjlx>
+		<!--出租方证件号码（统一社会信用代码） -->
+		<kCzfzjhm row="1">str</kCzfzjhm>
+		<!--住房坐落地址 -->
+		<kZfzldz row="1">str</kZfzldz>
+		<!-- 租赁合同编号-->
+		<kZfzlhtbh row="1">str</kZfzlhtbh>
+		<!--租赁期起 -->
+		<kZlqq row="1">1547449091233</kZlqq>
+		<!--租赁期止 -->
+		<kZlqz row="1">1547449091233</kZlqz>
+	</gzZxfjkcZfzj>
+
+	<!-- 住房贷款-->
+	<gzZxfjkcZfdk>
+		<!-- 住房信息 -->
+
+		<!--房屋坐落地址 -->
+		<kFwzldz>str</kFwzldz>
+		<!-- 本人借款标志 0-否 1-是-->
+		<kBrjkbz>0</kBrjkbz>
+		<!--住房证书类型 -->
+		<kZfzslx>str</kZfzslx>
+		<!-- 住房证书号-->
+		<kZfzsh>str</kZfzsh>
+		<!-- 扣除比例-->
+		<kKcbl>BigDecimal</kKcbl>
+
+		<!-- 贷款类型 1-公积金贷款 2-商业贷款-->
+		<kDklx row="1">str</kDklx>
+		<!--贷款银行 -->
+		<kDkyh row="1">str</kDkyh>
+		<!--贷款合同编号 -->
+		<kDkhtbh row="1">str</kDkhtbh>
+		<!--首次还款日期 -->
+		<kSchkrq row="1">1547449091233</kSchkrq>
+		<!-- 贷款期限(月数)-->
+		<kDkqx row="1">0</kDkqx>
+	</gzZxfjkcZfdk>
+
+
+	<!-- 赡养老人-->
+	<gzZxfjkcsyrzc>
+		<!--被赡养人信息-->
+		<!-- 姓名-->
+		<kXm1 row="1">str</kXm1>
+		<!--证件类型 -->
+		<kZjlx1 row="1">str</kZjlx1>
+		<!--证件号码 -->
+		<kZjhm1 row="1">str</kZjhm1>
+		<!-- 国籍-->
+		<kGj1 row="1">str</kGj1>
+		<!--关系 -->
+		<kGx1 row="1">str</kGx1>
+		<!--出生日期 -->
+		<kCsrq1 row="1">1547449091231</kCsrq1>
+
+		<!--  共同赡养人信息-->
+		<!--姓名-->
+		<kXm2 row="1">str</kXm2>
+		<!-- 证件类型-->
+		<kZjlx2 row="1">str</kZjlx2>
+		<!--证件号码 -->
+		<kZjhm2 row="1">str</kZjhm2>
+		<!--国籍 -->
+		<kGj2 row="1">str</kGj2>
+	</gzZxfjkcsyrzc>
+
+	<!-- 继续教育-->
+	<gzZxfjkcjxjy>
+
+		<!--教育阶段 -->
+		<kJyjd row="1">str</kJyjd>
+		<!--入学时间 -->
+		<kRxsj row="1">1547449091234</kRxsj>
+		<!--毕业时间 -->
+		<kBysj row="1">1547449091234</kBysj>
+
+		<!--继续教育类型 -->
+		<kJxjylx row="1">str</kJxjylx>
+		<!-- 发证（批准）日期-->
+		<kFzrq row="1">1547449091234</kFzrq>
+		<!-- 证书名称 -->
+		<kZsmc row="1">str</kZsmc>
+		<!-- 证书编号-->
+		<kZsbh row="1">str</kZsbh>
+		<!--发证机关 -->
+		<kFzjg row="1">str</kFzjg>
+	</gzZxfjkcjxjy>
+	</Item>
+	</zxryxxVO>
+	<GroupInfo>
+		<nscount>7</nscount> <!-- 纳税人数-->
+		<nsamount>36010.00</nsamount> <!-- 纳税金额-->
+		<gsgbze>0</gsgbze> <!-- 公司股本总额-->
+		<totalYbtse>0</totalYbtse> <!-- 应补退税额-->
+	</GroupInfo>
+</grsds_zhsbsdxxVO>
