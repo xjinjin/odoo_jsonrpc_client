@@ -14,7 +14,7 @@ shenbaosheetwizard = c0.env['create.shenbaosheet.wizard']   # 创建表
 # cic_tools = c0.env['cic_tools.cic_finance']
 # res = cic_tools.get_declaration_data('91320214MA1NYKMBXK','2019-07-01','2019-09-30')
 # res = self.env['cic_tools.cic_finance'].get_declaration_data('91320214MA1NYKMBXK', '2019-07-01','2019-09-30')
-# shenbaosheetwizard.browse(3).create_shenbao_sheet()
+# shenbaosheetwizard.browse(5).create_shenbao_sheet()
 # shenbaosheetwizard.create({'dqbm': '32', 'sheet_id': 39,'account_id': 100, 'startdate': '2019-09-01', 'enddate': '2019-09-30'})
 
 # 资产负债表
@@ -52,7 +52,8 @@ for cell in shenbaosheet.browse(lrb_id).cells:
 # 申报信息
 get_value_func_sbzlbh = '''
 # 申报种类编号是定死的，比如小企业会计准则就是29806，企业会计准则2017就是B9805
-cell.write({'value':'29806'})
+# cell.write({'value':'29806'})
+cell.write({'value':'record.sbzlbh'})
 '''
 get_value_func_ssqq = '''
 # 等于向导对象的开始日期
@@ -73,7 +74,8 @@ cell.write({'value':record.dqbm})
 get_value_func_nsqxdm = '''
 # 从总账系统获取：申报类型
 decType_dict = {'月度申报':'1','季度申报':'2','半年度申报':'3','年度申报':'4','次度申报':'5'}
-cell.write({'value':decType_dict.get(record.account_id.company_account.decType)})
+# cell.write({'value':decType_dict.get(record.account_id.company_account.decType)})
+cell.write({'value':record.nsqxdm})
 '''
 # 小企业会计准则   申报信息    单元格     取值函数录入
 xml_id = shenbaosheet.search([('tagname','=','jsxgs_cwbb_xqykjzzxxVO')])[0]  # 39

@@ -1,43 +1,31 @@
-# -*- coding: utf-8 -*-
 
-from odooClient import  ODOO
-c0 = ODOO('http://192.168.1.240:8069')
-c0.login('test','admin','admin')
+import os
+import re
 
-shenbaosheetcell = c0.env['cic_taxsb.shenbaosheet.cell'] # 单元格
-shenbaosheet = c0.env['cic_taxsb.shenbaosheet']          # 表
-shenbaosheetwizard = c0.env['create.shenbaosheet.wizard']# 创建表
+comment_re = re.compile(
+    '(^)?[^\S\n]*/(?:\*(.*?)\*/[^\S\n]*|/[^\n]*)($)?',
+    re.DOTALL | re.MULTILINE
+)
 
-# 小企业会计准则   # 6
-shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 33,  'startdate': '2019-09-01',  'enddate': '2019-09-30'})
-# 企业会计制度     # 7
-shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 38,  'startdate': '2019-09-01',  'enddate': '2019-09-30'})
-# 企业会计准则2017 # 8
-shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 45,  'startdate': '2019-09-01',  'enddate': '2019-09-30'})
+for root, dirs, files in os.walk('D:\git_jst\project\odoo_jsonrpc_client\sb\js\统一报文'):
+    # print(root) # 'D:\git_jst\project\odoo_jsonrpc_client\sb\js\统一报文'
+    # print(dirs) # []
+    # print(files) # ['增值税一般纳税人交付报文_V20191018.json', '增值税小规模交附报文_V20191025.json', '附加税交付报文_V20191015.json']
 
+    for file in files:
+        file_name = os.path.join(root,file)
+        # print(file_name)
+        with open(file_name, 'r', encoding='utf-8') as f:
+            content = ''.join(f.readlines())
+            ## Looking for comments
+            match = comment_re.search(content)
+            while match:
+                # single line comment
+                content = content[:match.start()] + content[match.end():]
+                match = comment_re.search(content)
 
-shenbaosheetwizard.browse(8).create_shenbao_sheet()
-shenbaosheetwizard.browse(7).xml
-shenbaosheetwizard.browse(8).temp_dict
+            print(content)
 
-from odooClient import ODOO
-from datetime import datetime,timedelta
-import json
-odoo230 =ODOO('http://192.168.1.230:8069',timeout=600)
-odoo230.login('cic_oa','admin','cic_admin')
-
-cic_tools = odoo230.env['cic_tools.cic_finance']
-
-shenbaosheetcell = odoo230.env['cic_taxsb.shenbaosheet.cell'] # 单元格
-shenbaosheet = odoo230.env['cic_taxsb.shenbaosheet']          # 表
-shenbaosheetwizard = odoo230.env['create.shenbaosheet.wizard']# 创建表
-
-# 创建xml报文
-xqykjzz_id = shenbaosheet.search([('name','=','财务报表-小企业会计准则-江苏')]) # 39
-shenbaosheetwizard.create({'dqbm': '32',  'sheet_id': 39,  'startdate': '2019-07-01',  'enddate': '2019-09-30'})
-shenbaosheetwizard.browse(1).create_shenbao_sheet()
-
-res = cic_tools.get_declaration_data('91320214MA1NYKMBXK','2019-07-01','2019-09-30')
-print(json.dumps(res,indent=1))
-# get_value_func
+            # Return json file
+            # return json.loads(content)
 

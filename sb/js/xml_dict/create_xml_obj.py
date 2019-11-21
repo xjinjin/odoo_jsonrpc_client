@@ -57,6 +57,9 @@ def create_xml_obj(full_filename):
         #     pass
 
 if __name__ == '__main__':
+    # create_xml_obj('增值税一般纳税人申报表接口(月报).xml')
+    # create_xml_obj('印花税纳税申报（报告）表接口(月季报).xml')
     # create_xml_obj('印花税纳税申报表(选报)接口(次报).xml')
+    # create_xml_obj('城建税、教育费附加、地方教育附加税(费)申报表(月)接口.xml')
     # 1.上传xml   2.把此功能做在服务端
-    create_xml_obj('城建税、教育费附加、地方教育附加税(费)申报表(季)接口.xml')
+    pass

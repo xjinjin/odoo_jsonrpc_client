@@ -234,163 +234,163 @@
 	<grsds_zhsbsd_syylbxfb/>
 	<!-- 专项人员信息-->
 	<zxryxxVO>
-	<Item>
-	<!--首页 -->
-	<gzZxfjkcsy>
-		<!-- 扣除年度-->
-		<kKjnd>0</kKjnd>
-		<!--人员姓名 -->
-		<kRyxm>str</kRyxm>
-		<!--  证件类型-->
-		<kZjlx>str</kZjlx>
-		<!--证件号码 -->
-		<kZjhm>str</kZjhm>
-		<!--配偶标志   0-无  1-有 -->
-		<kPobz>str</kPobz>
-		<!--配偶姓名 -->
-		<kPoxm>str</kPoxm>
-		<!-- 配偶证件类型-->
-		<kPozjlx>str</kPozjlx>
-		<!--  配偶证件号码-->
-		<kPozjhm>str</kPozjhm>
-		<!--独生子女标志  0-否  1-是 -->
-		<kDsznbz>str</kDsznbz>
-		<!-- 赡养老人分摊方式-->
-		<kSylrftfs>str</kSylrftfs>
-		<!--养老人本年度月扣除金额 -->
-		<kSylrbndykcje>BigDecimal</kSylrbndykcje>
-	</gzZxfjkcsy>
+		<Item>
+			<!--首页 -->
+			<gzZxfjkcsy>
+				<!-- 扣除年度-->
+				<kKjnd>0</kKjnd>
+				<!--人员姓名 -->
+				<kRyxm>str</kRyxm>
+				<!--  证件类型-->
+				<kZjlx>str</kZjlx>
+				<!--证件号码 -->
+				<kZjhm>str</kZjhm>
+				<!--配偶标志   0-无  1-有 -->
+				<kPobz>str</kPobz>
+				<!--配偶姓名 -->
+				<kPoxm>str</kPoxm>
+				<!-- 配偶证件类型-->
+				<kPozjlx>str</kPozjlx>
+				<!--  配偶证件号码-->
+				<kPozjhm>str</kPozjhm>
+				<!--独生子女标志  0-否  1-是 -->
+				<kDsznbz>str</kDsznbz>
+				<!-- 赡养老人分摊方式-->
+				<kSylrftfs>str</kSylrftfs>
+				<!--养老人本年度月扣除金额 -->
+				<kSylrbndykcje>BigDecimal</kSylrbndykcje>
+			</gzZxfjkcsy>
 
-	<!--子女信息 -->
-	<gzZxfjkcZnjy>
-		<!--子女姓名-->
-		<kZnxm row="1">str</kZnxm>
-		<!--证件类型 -->
-		<kZjlx row="1">str</kZjlx>
-		<!--证件号码 -->
-		<kZjhm row="1">str</kZjhm>
-		<!-- 出生日期-->
-		<kCsrq row="1">1547449091232</kCsrq>
-		<!--  国籍-->
-		<kGj row="1">str</kGj>
-		<!-- 当前受教育阶段-->
-		<kDqsjyjd row="1">str</kDqsjyjd>
-		<!-- 当前受教育阶段起始时间-->
-		<kDqsjyjdqssj row="1">1547449091232</kDqsjyjdqssj>
-		<!-- 当前受教育阶段结束时间-->
-		<kDqsjyjdjssj row="1">1547449091232</kDqsjyjdjssj>
-		<!-- 教育终止时间-->
-		<kJyzzsj row="1">1547449091232</kJyzzsj>
-		<!-- 当前就读国籍-->
-		<kDqjdqj row="1">str</kDqjdqj>
-		<!-- 当前就读学校-->
-		<kDqjdxx row="1">str</kDqjdxx>
-		<!-- 本人扣除比例-->
-		<kBrkcbl row="1">BigDecimal</kBrkcbl>
-	</gzZxfjkcZnjy>
+			<!--子女信息 -->
+			<gzZxfjkcZnjy>
+				<!--子女姓名-->
+				<kZnxm row="1">str</kZnxm>
+				<!--证件类型 -->
+				<kZjlx row="1">str</kZjlx>
+				<!--证件号码 -->
+				<kZjhm row="1">str</kZjhm>
+				<!-- 出生日期-->
+				<kCsrq row="1">1547449091232</kCsrq>
+				<!--  国籍-->
+				<kGj row="1">str</kGj>
+				<!-- 当前受教育阶段-->
+				<kDqsjyjd row="1">str</kDqsjyjd>
+				<!-- 当前受教育阶段起始时间-->
+				<kDqsjyjdqssj row="1">1547449091232</kDqsjyjdqssj>
+				<!-- 当前受教育阶段结束时间-->
+				<kDqsjyjdjssj row="1">1547449091232</kDqsjyjdjssj>
+				<!-- 教育终止时间-->
+				<kJyzzsj row="1">1547449091232</kJyzzsj>
+				<!-- 当前就读国籍-->
+				<kDqjdqj row="1">str</kDqjdqj>
+				<!-- 当前就读学校-->
+				<kDqjdxx row="1">str</kDqjdxx>
+				<!-- 本人扣除比例-->
+				<kBrkcbl row="1">BigDecimal</kBrkcbl>
+			</gzZxfjkcZnjy>
 
-	<!--住房租金 -->
-	<gzZxfjkcZfzj>
+			<!--住房租金 -->
+			<gzZxfjkcZfzj>
 
-		<!--主要工作省份 -->
-		<kProvince row="1">str</kProvince>
-		<!-- 主要工作城市-->
-		<kCity row="1">str</kCity>
-		<!--出租方类型 -->
-		<kCzflx row="1">str</kCzflx>
-		<!--出租方姓名（组织名称） -->
-		<kCzfxm row="1">str</kCzfxm>
-		<!-- 出租方证件类型-->
-		<kCzfzjlx row="1">str</kCzfzjlx>
-		<!--出租方证件号码（统一社会信用代码） -->
-		<kCzfzjhm row="1">str</kCzfzjhm>
-		<!--住房坐落地址 -->
-		<kZfzldz row="1">str</kZfzldz>
-		<!-- 租赁合同编号-->
-		<kZfzlhtbh row="1">str</kZfzlhtbh>
-		<!--租赁期起 -->
-		<kZlqq row="1">1547449091233</kZlqq>
-		<!--租赁期止 -->
-		<kZlqz row="1">1547449091233</kZlqz>
-	</gzZxfjkcZfzj>
+				<!--主要工作省份 -->
+				<kProvince row="1">str</kProvince>
+				<!-- 主要工作城市-->
+				<kCity row="1">str</kCity>
+				<!--出租方类型 -->
+				<kCzflx row="1">str</kCzflx>
+				<!--出租方姓名（组织名称） -->
+				<kCzfxm row="1">str</kCzfxm>
+				<!-- 出租方证件类型-->
+				<kCzfzjlx row="1">str</kCzfzjlx>
+				<!--出租方证件号码（统一社会信用代码） -->
+				<kCzfzjhm row="1">str</kCzfzjhm>
+				<!--住房坐落地址 -->
+				<kZfzldz row="1">str</kZfzldz>
+				<!-- 租赁合同编号-->
+				<kZfzlhtbh row="1">str</kZfzlhtbh>
+				<!--租赁期起 -->
+				<kZlqq row="1">1547449091233</kZlqq>
+				<!--租赁期止 -->
+				<kZlqz row="1">1547449091233</kZlqz>
+			</gzZxfjkcZfzj>
 
-	<!-- 住房贷款-->
-	<gzZxfjkcZfdk>
-		<!-- 住房信息 -->
+			<!-- 住房贷款-->
+			<gzZxfjkcZfdk>
+				<!-- 住房信息 -->
 
-		<!--房屋坐落地址 -->
-		<kFwzldz>str</kFwzldz>
-		<!-- 本人借款标志 0-否 1-是-->
-		<kBrjkbz>0</kBrjkbz>
-		<!--住房证书类型 -->
-		<kZfzslx>str</kZfzslx>
-		<!-- 住房证书号-->
-		<kZfzsh>str</kZfzsh>
-		<!-- 扣除比例-->
-		<kKcbl>BigDecimal</kKcbl>
+				<!--房屋坐落地址 -->
+				<kFwzldz>str</kFwzldz>
+				<!-- 本人借款标志 0-否 1-是-->
+				<kBrjkbz>0</kBrjkbz>
+				<!--住房证书类型 -->
+				<kZfzslx>str</kZfzslx>
+				<!-- 住房证书号-->
+				<kZfzsh>str</kZfzsh>
+				<!-- 扣除比例-->
+				<kKcbl>BigDecimal</kKcbl>
 
-		<!-- 贷款类型 1-公积金贷款 2-商业贷款-->
-		<kDklx row="1">str</kDklx>
-		<!--贷款银行 -->
-		<kDkyh row="1">str</kDkyh>
-		<!--贷款合同编号 -->
-		<kDkhtbh row="1">str</kDkhtbh>
-		<!--首次还款日期 -->
-		<kSchkrq row="1">1547449091233</kSchkrq>
-		<!-- 贷款期限(月数)-->
-		<kDkqx row="1">0</kDkqx>
-	</gzZxfjkcZfdk>
+				<!-- 贷款类型 1-公积金贷款 2-商业贷款-->
+				<kDklx row="1">str</kDklx>
+				<!--贷款银行 -->
+				<kDkyh row="1">str</kDkyh>
+				<!--贷款合同编号 -->
+				<kDkhtbh row="1">str</kDkhtbh>
+				<!--首次还款日期 -->
+				<kSchkrq row="1">1547449091233</kSchkrq>
+				<!-- 贷款期限(月数)-->
+				<kDkqx row="1">0</kDkqx>
+			</gzZxfjkcZfdk>
 
 
-	<!-- 赡养老人-->
-	<gzZxfjkcsyrzc>
-		<!--被赡养人信息-->
-		<!-- 姓名-->
-		<kXm1 row="1">str</kXm1>
-		<!--证件类型 -->
-		<kZjlx1 row="1">str</kZjlx1>
-		<!--证件号码 -->
-		<kZjhm1 row="1">str</kZjhm1>
-		<!-- 国籍-->
-		<kGj1 row="1">str</kGj1>
-		<!--关系 -->
-		<kGx1 row="1">str</kGx1>
-		<!--出生日期 -->
-		<kCsrq1 row="1">1547449091231</kCsrq1>
+			<!-- 赡养老人-->
+			<gzZxfjkcsyrzc>
+				<!--被赡养人信息-->
+				<!-- 姓名-->
+				<kXm1 row="1">str</kXm1>
+				<!--证件类型 -->
+				<kZjlx1 row="1">str</kZjlx1>
+				<!--证件号码 -->
+				<kZjhm1 row="1">str</kZjhm1>
+				<!-- 国籍-->
+				<kGj1 row="1">str</kGj1>
+				<!--关系 -->
+				<kGx1 row="1">str</kGx1>
+				<!--出生日期 -->
+				<kCsrq1 row="1">1547449091231</kCsrq1>
 
-		<!--  共同赡养人信息-->
-		<!--姓名-->
-		<kXm2 row="1">str</kXm2>
-		<!-- 证件类型-->
-		<kZjlx2 row="1">str</kZjlx2>
-		<!--证件号码 -->
-		<kZjhm2 row="1">str</kZjhm2>
-		<!--国籍 -->
-		<kGj2 row="1">str</kGj2>
-	</gzZxfjkcsyrzc>
+				<!--  共同赡养人信息-->
+				<!--姓名-->
+				<kXm2 row="1">str</kXm2>
+				<!-- 证件类型-->
+				<kZjlx2 row="1">str</kZjlx2>
+				<!--证件号码 -->
+				<kZjhm2 row="1">str</kZjhm2>
+				<!--国籍 -->
+				<kGj2 row="1">str</kGj2>
+			</gzZxfjkcsyrzc>
 
-	<!-- 继续教育-->
-	<gzZxfjkcjxjy>
+			<!-- 继续教育-->
+			<gzZxfjkcjxjy>
 
-		<!--教育阶段 -->
-		<kJyjd row="1">str</kJyjd>
-		<!--入学时间 -->
-		<kRxsj row="1">1547449091234</kRxsj>
-		<!--毕业时间 -->
-		<kBysj row="1">1547449091234</kBysj>
+				<!--教育阶段 -->
+				<kJyjd row="1">str</kJyjd>
+				<!--入学时间 -->
+				<kRxsj row="1">1547449091234</kRxsj>
+				<!--毕业时间 -->
+				<kBysj row="1">1547449091234</kBysj>
 
-		<!--继续教育类型 -->
-		<kJxjylx row="1">str</kJxjylx>
-		<!-- 发证（批准）日期-->
-		<kFzrq row="1">1547449091234</kFzrq>
-		<!-- 证书名称 -->
-		<kZsmc row="1">str</kZsmc>
-		<!-- 证书编号-->
-		<kZsbh row="1">str</kZsbh>
-		<!--发证机关 -->
-		<kFzjg row="1">str</kFzjg>
-	</gzZxfjkcjxjy>
-	</Item>
+				<!--继续教育类型 -->
+				<kJxjylx row="1">str</kJxjylx>
+				<!-- 发证（批准）日期-->
+				<kFzrq row="1">1547449091234</kFzrq>
+				<!-- 证书名称 -->
+				<kZsmc row="1">str</kZsmc>
+				<!-- 证书编号-->
+				<kZsbh row="1">str</kZsbh>
+				<!--发证机关 -->
+				<kFzjg row="1">str</kFzjg>
+			</gzZxfjkcjxjy>
+		</Item>
 	</zxryxxVO>
 	<GroupInfo>
 		<nscount>7</nscount> <!-- 纳税人数-->
