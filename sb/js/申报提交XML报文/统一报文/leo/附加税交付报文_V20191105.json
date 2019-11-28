@@ -1,0 +1,149 @@
+{
+	"doc":{
+		"taxParam":{ //申报参数对象
+			"nsrsbh":"", //纳税人识别号
+			"nsrmc":"", //纳税人名称
+			"nsrdq":"", //纳税人地区（地区编码参加《纳税人地区编码表.txt》）
+			"zgswjgmc":"", //主管税务机关名称
+			"sbrq":"2019-10-01", //申报日期
+			"skssqq":"2019-09-01", //税款所属期起
+			"skssqz":"2018-09-30", //税款所属期止
+			"sz":"fjs" //税种：附加税【不可修改】
+		},
+		"fjsslxxForm":{
+			"dlr": "", //经办人
+			"dlrsfzh": "", //经办人身份证号码
+			"smrxm":"",	//代理机构
+			"dzdw":"", //代理机构统一社会信用代码
+			"jsyjxgyy":"" //计税依据修改原因
+		},
+		"fjsnsrxxForm": {
+			"lxfs": "" //联系方式
+		},
+		"fjsData":{
+			"fjssbb":{
+			    "sbList": {  // 标识申报项目是否有效
+                  "cswhjss": "Y",  // 如果城市维护建设税有效，值为Y，否则值为N
+                  "jyffj": "Y",  // 如果教育费附加有效，值为Y，否则值为N
+                  "dfjyfj": "Y",  // 如果地方教育附加有效，值为Y，否则值为N
+                  "sljszxsy": "Y"  // 如果水利建设专项收入有效，值为Y，否则值为N
+                },
+				"sbxxGrid":{
+					"sbxxJbxxGridlbVO":{
+						"bqsfsyzzsxgmnsrjzzc": "N", // 本期是否适用增值税小规模纳税人减征政策，Y-是，N-否
+						"jzblcswhjss": "0", //减征比例_城市维护建设税（%）
+						"jzbljyffj": "0", //减征比例_教育费附加（%）
+						"jzbldfjyfj": "0", //减征比例_地方教育附加（%）
+						"bqsfsycjrhxqyjzzc": "N", //本期是否适用产教融合型企业减征政策，Y-是，N-否
+						"dqxztze": "0", //当期新增投资额
+						"sqldkdmje": "0", //上期留抵可抵免金额
+						"jzxqkdmje": "0" //结转下期可抵免金额
+					},
+					"sbxxhjGridlbVO":{
+						"zhj": "0", //合计
+						"bqynsfehj": "0", //本期应纳税（费）额_合计
+						"jmehj": "0", //减免税（费）额_合计
+						"bqcjrhxqydmjehj": "0", //增值税小规模纳税人减征额
+						"phjmsehj": "0", //本期抵免金额
+						"bqyjsehj": "0", //本期已缴税（费）额_合计
+						"bqybtsehj": "0" //本期应补（退）税（费）额_合计
+					},
+					"sbxxGridlbVO":[
+						{
+							"ewbhxh":"1", //行序号【不可更改（下同）】
+							"zsxmMc":"城市维护建设税", //征收项目名称【不可更改（下同）】
+							"zspmMc":"市区（增值税附征）", //征收品目名称【不可更改（下同）】
+							"ybzzs": "0", //一般增值税
+							"zzsmdse": "0", //免抵税额
+							"xfs": "0", //消费税
+							"yys": "0", //营业税
+							"hj": "0", //合计
+							"sl1": "0", //税率（征收率）
+							"bqynsfe": "0", //本期应纳税（费）额
+							"jmxzDm":"", //减免性质代码
+							"jmxzdmMc":"", //减免性质名称
+							"jme": "0", //减免额
+							"bqyjse": "0", //本期已缴税（费）额
+							"bqybtse": "0", //本期应补（退）税（费）额							
+							"zsxmDm":"10109", //征收项目代码【不可更改（下同）】
+							"zspmDm":"101090101", //征收品目代码【不可更改（下同）】
+							"phjmxzMc":"", //减免性质代码
+							"phjzbl":"0", //减征比例
+							"cjrhjmxzMc":"0", //减免性质
+							"bqcjrhxqydmje":"0" //本期抵免金额
+						},
+						{
+							"ewbhxh":"2",
+							"zsxmMc":"教育费附加",
+							"zspmMc":"增值税教育费附加",
+							"ybzzs": "0",
+							"zzsmdse": "0",
+							"xfs": "0",
+							"yys": "0",
+							"hj": "0",
+							"sl1": "0",
+							"bqynsfe": "0",
+							"jmxzDm":"",
+							"jmxzdmMc":"",
+							"jme": "0",
+							"bqyjse": "0",
+							"bqybtse": "0",
+							"zsxmDm":"30203",
+							"zspmDm":"302030100",
+							"phjmxzMc":"",
+							"phjzbl":"0",
+							"cjrhjmxzMc":"0",
+							"bqcjrhxqydmje":"0"
+						},
+						{
+							"ewbhxh":"3",
+							"zsxmMc":"地方教育附加",
+							"zspmMc":"增值税地方教育附加",
+							"ybzzs": "0",
+							"zzsmdse": "0",
+							"xfs": "0",
+							"yys": "0",
+							"hj": "0",
+							"sl1": "0",
+							"bqynsfe": "0",
+							"jmxzDm":"",
+							"jmxzdmMc":"",
+							"jme": "0",
+							"bqyjse": "0",
+							"bqybtse": "0",
+							"zsxmDm":"30216",
+							"zspmDm":"302160100",
+							"phjmxzMc":"",
+							"phjzbl":"0",
+							"cjrhjmxzMc":"0",
+							"bqcjrhxqydmje":"0"
+						},
+						{
+							"ewbhxh":"4",
+							"zsxmMc":"水利建设专项收入",
+							"zspmMc":"地方水利建设基金（增值税附征）",
+							"ybzzs": "0",
+							"zzsmdse": "0",
+							"xfs": "0",
+							"yys": "0",
+							"hj": "0",
+							"sl1": "0",
+							"bqynsfe": "0",
+							"jmxzDm":"",
+							"jmxzdmMc":"",
+							"jme": "0",
+							"bqyjse": "0",
+							"bqybtse": "0",
+							"zsxmDm":"30221",
+							"zspmDm":"302218101",
+							"phjmxzMc":"",
+							"phjzbl":"0",
+							"cjrhjmxzMc":"0",
+							"bqcjrhxqydmje":"0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

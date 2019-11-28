@@ -1,0 +1,1650 @@
+V20191120【guoqiang】：初版，相比2019年11月征期前的版本变更如下：
+一、逻辑删除部分字段（报文中保留有注释）：
+  资产负债表:
+	应收利息
+	应收股利
+	工程物资
+	固定资产清理
+	应付利息
+	应付股利
+	专项应付款
+二、增加部分字段：
+  资产负债表
+	专项储备
+  利润表
+	研发费用
+	其中:利息费用
+	利息收入
+  所有者权益表
+    每列均增加"本年金额/专项储备"和"上年金额/专项储备"两个字段
+三、名称修改（报文有注释）：
+  利润表
+    1．"（一）以后不能重分类进损益的其他综合收益"更新为"（一）不能重分类进损益的其他综合收益"
+	2．"1．重新计量设定受益计划净负债或净资产的变动"更新为"1．重新计量设定受益计划变动额"
+	3．"2．权益法下在被投资单位不能重分类进损益的其他综合收益中享有的份额"更新为"2．权益法下不能转损益的其他综合收益"
+	4．"（二）以后将重分类进损益的其他综合收益"更新为"（二）将重分类进损益的其他综合收益"
+	5．"1．权益法下在被投资单位以后将重分类进损益的其他综合收益中享有的份额"更新为"1．权益法下可转损益的其他综合收益"
+
+—————————————————————————————下面是正式接口报文—————————————————————————————
+
+{
+	"doc": {
+		"taxParam":{ //申报参数对象
+			"nsrsbh":"", //纳税人识别号
+			"nsrmc":"", //纳税人名称
+			"nsrdq":"", //纳税人地区（地区编码参加《纳税人地区编码表.txt》）
+			"zgswjgmc":"", //主管税务机关名称
+			"sbrq":"2019-10-01", //申报日期
+			"skssqq":"2019-09-01", //税款所属期起
+			"skssqz":"2018-09-30", //税款所属期止
+			"sz":"cwbbqykjzzwzx" //税种：财务报表（企业会计准则（适用于未执行新金融准则、新收入准则和新租赁准则））【不可修改】
+		},
+		"cwbbData": {
+			"sbList": {  // 标识表单是否有效
+				"lrbData": "Y",  // 如果利润表有效，值为Y，否则值为N
+				"xjllData": "Y",  // 如果现金流量表有效，值为Y，否则值为N
+				"zcfzData": "Y",  // 如果资产负债表有效，值为Y，否则值为N
+				"syzqyData": "Y",  // 如果所有者权益表有效，值为Y，否则值为N
+				"files": "N"  // 如果需要上传文件，值为Y，否则值为N
+			},
+			"lrbData": { //利润表
+				"lrbGrid": {
+					"lrbGridVo": [
+						    {
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 1, //【不可修改（下同）】
+								"hmc": "一、营业收入" //【不可修改（下同）】
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 2,
+								"hmc": "减:营业成本"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 3,
+								"hmc": "税金及附加"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 4,
+								"hmc": "销售费用"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 5,
+								"hmc": "管理费用"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 6,
+								"hmc": "财务费用"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 7,
+								"hmc": "资产减值损失"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 8,
+								"hmc": "加:公允价值变动收益(损失以“–“号填列)"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 9,
+								"hmc": "投资收益(损失以“–“号填列)"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 10,
+								"hmc": "其中:对联营企业和合营企业的投资收益"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 11,
+								"hmc": "二、营业利润(亏损以“–“号填列)"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 12,
+								"hmc": "加:营业外收入"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 13,
+								"hmc": "减:营业外支出"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 14,
+								"hmc": "其中:非流动资产处置损失"  //申报表单页面无对应行,该项数据不用修改
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 15,
+								"hmc": "三、利润总额(亏损总额以“–“号填列)"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 16,
+								"hmc": "减:所得税费用"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 17,
+								"hmc": "四、净利润(净亏损以“–“号填列)"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 18, 
+								"hmc": "七、每股收益" //申报表单页面无对应行,该项数据不用修改
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 19,
+								"hmc": "(一)基本每股收益"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 20,
+								"hmc": "(二)稀释每股收益"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 21,
+								"hmc": "其中:非流动资产处置利得" //申报表单页面无对应行,该项数据不用修改
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 22,
+								"hmc": "五、其他综合收益的税后净额"
+							},
+							{//自2019年11月征期后更新 原字段 （一）以后不能重分类进损益的其他综合收益
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 23,
+								"hmc": "（一）不能重分类进损益的其他综合收益"
+							},
+							{//自2019年11月征期后更新 原字段 1．重新计量设定受益计划净负债或净资产的变动
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 24,
+								"hmc": "1.重新计量设定受益计划变动额 "
+							},
+							{//自2019年11月征期后更新 原字段 2．权益法下在被投资单位不能重分类进损益的其他综合收益中享有的份额  
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 25,
+								"hmc": "2.权益法下不能转损益的其他综合收益 "
+							},
+							{//自2019年11月征期后更新 原字段 （二）以后将重分类进损益的其他综合收益
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 26,
+								"hmc": "（二）将重分类进损益的其他综合收益 "
+							},
+							{//自2019年11月征期后更新 原字段 1．权益法下在被投资单位以后将重分类进损益的其他综合收益中享有的份额
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 27,
+								"hmc": "1．权益法下可转损益的其他综合收益"
+							},
+							{   "sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 28,
+								"hmc": "2.可供出售金融资产公允价值变动损益"
+							},
+							{   "sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 29,
+								"hmc": "3.将有至到期投资重分类可供出售金融资产损益"
+							},
+							{   "sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 30,
+								"hmc": " 4.现金流经套期损益的有效部分"
+							},
+							{	"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 31,
+								"hmc": "5．外币财务报表折算差额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 32,
+								"hmc": "六、综合收益总额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 33,
+								"hmc": "资产处置收益（损失以“-”号填列）"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 34,
+								"hmc": "其他收益"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 35,
+								"hmc": "（一）持续经营净利润（净亏损以“-”号填列）"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 36,
+								"hmc": "（二）终止经营净利润（净亏损以“-”号填列）"
+						    },
+						    {//2019年11月征期后新增字段
+							     "sqje1":"0",
+							     "bqje":"0",
+							     "ewbhxh":37,
+							     "hmc":"研发费用"
+						    },
+						     {//2019年11月征期后新增字段
+							     "sqje1":"0",
+							     "bqje":"0",
+						  	     "ewbhxh":38,
+							     "hmc":"其中:利息费用"
+						    },
+						    {//2019年11月征期后新增字段
+							     "sqje1":"0",
+							     "bqje":"0",
+							     "ewbhxh":39,
+							     "hmc":"利息收入"
+						     }
+					    ]
+				    }
+			    },
+			"xjllData": { //现金流量表
+				"xjllGrid": {
+					"xjllGridVo": [
+						{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 1, //【不可修改（下同）】
+								"hmc": "销售商品、提供劳务收到的现金" //【不可修改（下同）】
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 2,
+								"hmc": "收到的税费返还"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 3,
+								"hmc": "收到其他与经营活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 4,
+								"hmc": "经营活动现金流入小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 5,
+								"hmc": "购买商品、接受劳务支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 6,
+								"hmc": "支付给职工以及为职工支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 7,
+								"hmc": "支付的各项税费"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 8,
+								"hmc": "支付其他与经营活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 9,
+								"hmc": "经营活动现金流出小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 10,
+								"hmc": "经营活动产生的现金流量净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 11,
+								"hmc": "收回投资收到的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 12,
+								"hmc": "取得投资收益收到的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 13,
+								"hmc": "处置固定资产、无形资产和其他长期资产收回的现金净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 14,
+								"hmc": "处置子公司及其他营业单位收到的现金净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 15,
+								"hmc": "收到其他与投资活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 16,
+								"hmc": "投资活动现金流入小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 17,
+								"hmc": "购建固定资产、无形资产和其他长期资产所支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 18,
+								"hmc": "投资支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 19,
+								"hmc": "取得子公司及其他营业单位支付的现金净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 20,
+								"hmc": "支付其他与投资活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 21,
+								"hmc": "投资活动现金流出小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 22,
+								"hmc": "投资活动产生的现金流量净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 23,
+								"hmc": "吸收投资收到的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 24,
+								"hmc": "取得借款收到的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 25,
+								"hmc": "收到其他与筹资活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 26,
+								"hmc": "筹资活动现金流入小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 27,
+								"hmc": "偿还债务支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 28,
+								"hmc": "分配股利、利润或偿付利息支付的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 29,
+								"hmc": "支付其他与筹资活动有关的现金"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 30,
+								"hmc": "筹资活动现金流出小计"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 31,
+								"hmc": "筹资活动产生的现金流量净额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 32,
+								"hmc": "四、汇率变动对现金及现金等价物的影响"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 33,
+								"hmc": "五、现金及现金等价物净增加额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 34,
+								"hmc": "加:期初现金及现金等价物余额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 35,
+								"hmc": "六、期末现金及现金等价物余额"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 36,
+								"hmc": "一、经营活动产生的现金流量"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 37,
+								"hmc": "二、投资活动产生的现金流量"
+							},
+							{
+								"sqje1": "0",
+								"bqje": "0",
+								"ewbhxh": 38,
+								"hmc": "三、筹资活动所产生的现金流量"
+							}
+					]
+				}
+			},
+			"zcfzData": { //资产负债表
+				"zcfzGrid": {
+					"zcfzGridVo": [
+							{
+							"zcxmmc": "货币资金", //【不可修改（下同）】
+							"ewbhxh": 1, //【不可修改（下同）】
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "以公允价值计量且其变动计入当期损益的金融资产",
+							"ewbhxh": 2,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "衍生金融资产",
+							"ewbhxh": 3,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "应收票据",
+							"ewbhxh": 4,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "应收账款",
+							"ewbhxh": 5,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "预付款项",
+							"ewbhxh": 6,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+						    },
+							{//自2019年11月征期后弃用字段
+							"zcxmmc": "应收利息",
+							"ewbhxh": 7,
+						    "qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{//自2019年11月征期后弃用字段
+							"zcxmmc": "应收股利",
+							"ewbhxh": 8,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "其他应收款",
+							"ewbhxh": 9,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "存货",
+							"ewbhxh": 10,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "持有待售资产",
+							"ewbhxh": 11,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "一年内到期的非流动资产",
+							"ewbhxh": 12,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+						    },
+							{
+							"zcxmmc": "其他流动资产",
+							"ewbhxh": 13,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "流动资产合计",
+							"ewbhxh": 14,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "可供出售金融资产",
+							"ewbhxh": 15,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "持有至到期投资",
+							"ewbhxh": 16,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "长期应收款",
+							"ewbhxh": 17,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "长期股权投资",
+							"ewbhxh": 18,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "投资性房地产",
+							"ewbhxh": 19,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "固定资产",
+							"ewbhxh": 20,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "在建工程",
+							"ewbhxh": 21,
+							"qmyeZc": "0",
+							"ncyeZc": "0"	
+						    },
+							{//自2019年11月征期后弃用字段
+							"zcxmmc": "工程物资",
+							"ewbhxh": 22,
+							"qmyeZc": "0",
+							"ncyeZc": "0"	
+							},
+							{//自2019年11月征期后弃用字段
+							"zcxmmc": "固定资产清理",
+							"ewbhxh": 23,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "生产性生物资产",
+							"ewbhxh": 24,
+							"qmyeZc": "0",
+							"ncyeZc": "0"	
+							},
+							{
+							"zcxmmc": "油气资产",
+							"ewbhxh": 25,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "无形资产",
+							"ewbhxh": 26,
+							"qmyeZc": "0",
+							"ncyeZc": "0"	
+							},
+							{
+							"zcxmmc": "开发支出",
+							"ewbhxh": 27,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "商誉",
+							"ewbhxh": 28,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "长期待摊费用",
+							"ewbhxh": 29,
+							"qmyeZc": "0",
+							"ncyeZc": "0"	
+							},
+							{
+							"zcxmmc": "递延所得税资产",
+							"ewbhxh": 30,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "其他非流动资产",
+							"ewbhxh": 31,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "非流动资产合计",
+							"ewbhxh": 32,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},
+							{
+							"zcxmmc": "资产合计",
+							"ewbhxh": 33,
+							"qmyeZc": "0",
+							"ncyeZc": "0"
+							},	
+							{
+							"qyxmmc": "短期借款",
+							"ewbhxh": 34,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "以公允价值计量且其变动计入当期损益的金融负债",
+							"ewbhxh": 35,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+						    {
+							"qyxmmc": "衍生金融负债",
+							"ewbhxh": 36,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "应付票据",
+							"ewbhxh": 37,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "应付账款",
+							"ewbhxh": 38,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "预收款项",
+							"ewbhxh": 39,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "应付职工薪酬",
+							"ewbhxh": 40,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "应交税费",
+							"ewbhxh": 41,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{//自2019年11月征期后弃用字段
+							"qyxmmc": "应付利息",
+							"ewbhxh": 42,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+						    {//自2019年11月征期后弃用字段
+							"qyxmmc": "应付股利",
+							"ewbhxh": 43,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其他应付款",
+							"ewbhxh": 44,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "持有待售负债",
+							"ewbhxh": 45,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "一年内到期的非流动负债",
+							"ewbhxh": 46,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其他流动负债",
+							"ewbhxh": 47,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "流动负债合计",
+							"ewbhxh": 48,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "长期借款",
+							"ewbhxh": 49,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "应付债券",
+							"ewbhxh": 50,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其中：优先股",
+							"ewbhxh": 51,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "永续债",
+							"ewbhxh": 52,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "长期应付款",
+							"ewbhxh": 53,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{//自2019年11月征期后弃用字段
+							"qyxmmc": "专项应付款",
+							"ewbhxh": 54,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "预计负债",
+							"ewbhxh": 55,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "递延收益",
+							"ewbhxh": 56,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "递延所得税负债",
+							"ewbhxh": 57,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其他非流动负债",
+							"ewbhxh": 58,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "非流动负债合计",
+							"ewbhxh": 59,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "负债合计",
+							"ewbhxh": 60,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "实收资本(或股本)",
+							"ewbhxh": 61,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其他权益工具",
+							"ewbhxh": 62,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其中：优先股",
+							"ewbhxh": 63,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "永续债",
+							"ewbhxh": 64,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "资本公积",
+							"ewbhxh": 65,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "减：库存股",
+							"ewbhxh": 66,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "其他综合收益",
+							"ewbhxh": 67,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "盈余公积",
+							"ewbhxh": 68,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "未分配利润",
+							"ewbhxh": 69,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "所有者权益(或股东权益)合计",
+							"ewbhxh": 70,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "负债和所有者权益(或股东权益)总计",
+							"ewbhxh": 71,
+							"qmyeQy": "0",
+							"ncyeQy": "0"	
+							},
+							{
+							"zcxmmc": "非流动资产：",
+							"ewbhxh": 72,
+							"qmyeZc": "0",
+                            "ncyeZc": "0"	
+							},
+							{
+							"qyxmmc": "所有者权益(或股东权益):",
+							"ewbhxh": 73,
+							"qmyeQy": "0",
+                            "ncyeQy": "0"	
+							},
+							{
+							"qyxmmc": "非流动负债:",
+							"ewbhxh": 74,
+							"qmyeQy": "0",
+                            "ncyeQy": "0"
+							},
+							{
+							"qyxmmc": "流动资产:",
+							"ewbhxh": 75,
+							"qmyeQy": "0",
+                            "ncyeQy": "0"	
+							},
+							{
+							"qyxmmc": "流动负债:",
+							"ewbhxh": 76,
+							"qmyeQy": "0",
+                            "ncyeQy": "0"
+							},
+							{//2019年11月征期后新增字段
+							"qyxmmc": "专项储备",
+							"ewbhxh": 77,
+							"qmyeQy": "0",
+							"ncyeQy": "0"
+							}
+						]
+				    }
+			    },
+			"syzqyData": { //所有者权益表
+				"syzqyGrid": {
+					"syzqyGridVo": [
+						{
+								"hmc": "一、上年年末余额", //【不可修改（下同）】
+								"ewbhxh": 1, //【不可修改（下同）】
+								"bnsszbhgb": "0", //实收资本（或股本）/本年
+								"qtqygjyxg1": "0", //优先股（其他权益工具）/本年
+								"qtqygjyxz1": "0", //永续债（其他权益工具）/本年
+								"qtqygjqt1": "0", //其他（其他权益工具）/本年
+								"bnzbgj": "0", //资本公积/本年
+								"bnjkcg": "0", //减：库存股/本年
+								"bnzxcb": "0"//自2019年11月征期 新增字段 专项储备/本年
+								"bnqtzhsy": "0", //其他综合收益/本年
+								"bnyygj": "0", //盈余公积/本年
+								"bnwfply": "0", //未分配利润表/本年
+								"bnsyzqyhj": "0", //所有者权益合计/本年
+								"snsszbhgb": "0", //实收资本（或股本）/上年
+								"qtqygjyxg2": "0", //优先股（其他权益工具）/上年
+								"qtqygjyxz2": "0", //永续债（其他权益工具）/上年
+								"snzxcb": "0",//自2019年11月征期 新增字段 专项储备/上年
+								"qtqygjqt2": "0", //其他（其他权益工具）/上年
+								"snzbgj": "0", //资本公积/上年
+								"snjkcg": "0", //减：库存股/上年
+								"snqtzhsy": "0", //其他综合收益/上年
+								"snyygj": "0", //盈余公积/上年
+								"snwfply": "0", //未分配利润表/上年
+								"snsyzqyhj": "0", //所有者权益合计/上年								
+							},
+							{
+								"hmc": "加:会计政策变更",
+								"ewbhxh": 2,
+								"bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "前期差错更正",
+								"ewbhxh": 3,
+								"bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "二、本年年初余额",
+								"bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "三、本年增减变动金额(减少以–号填列)",
+								"ewbhxh": 5,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(一)综合收益总额",
+								"ewbhxh": 6,
+							   "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"ewbhxh": 7
+							},
+							{
+								"ewbhxh": 8
+							},
+							{
+								"ewbhxh": 9
+							},
+							{
+								"ewbhxh": 10
+							},
+							{
+								"ewbhxh": 11
+							},
+							{
+								"hmc": "上述(一)和(二)小计", //本组数据为"（二）所有者投入和减少资本"+"（一）综合收益总额"的相加之和需要计算
+								"ewbhxh": 12,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(二)所有者投入和减少资本",
+								"ewbhxh": 13,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "1.所有者投入的普通股",
+								"ewbhxh": 14,
+							   "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "3.股份支付计入所有者权益的金额",
+								"ewbhxh": 15,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(二)所有者投入和减少资本_4.其他",
+								"ewbhxh": 16,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(三)利润分配",
+								"ewbhxh": 17,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "1.提取盈余公积",
+								"ewbhxh": 18,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "2.对所有者(或股东)的分配",
+								"ewbhxh": 19,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(三)利润分配_3.其他",
+								"ewbhxh": 20,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(四)所有者权益内部结转",
+								"ewbhxh": 21,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "1.资本公积转增资本(或股本)",
+								"ewbhxh": 22,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "2.盈余公积转增资本(或股本)",
+								"ewbhxh": 23,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "3.盈余公积弥补亏损",
+								"ewbhxh": 24,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "(四)所有者权益内部结转_5.其他",
+								"ewbhxh": 25,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "四、本年年末余额",
+								"ewbhxh": 26,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "一、上年年末余额_其他",
+								"ewbhxh": 27,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "2.其他权益工具持有者投入资本",
+								"ewbhxh": 28,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							},
+							{
+								"hmc": "4.设定受益计划变动额结转留存收益",
+								"ewbhxh": 29,
+							    "bnsszbhgb": "0", 
+								"qtqygjyxg1": "0", 
+								"qtqygjyxz1": "0",
+								"qtqygjqt1": "0", 
+								"bnzbgj": "0", 
+								"bnjkcg": "0", 
+								"bnzxcb": "0",
+								"bnqtzhsy": "0", 
+								"bnyygj": "0", 
+								"bnwfply": "0", 
+								"bnsyzqyhj": "0", 
+								"snsszbhgb": "0", 
+								"qtqygjyxg2": "0", 
+								"qtqygjyxz2": "0", 
+								"snzxcb": "0",
+								"qtqygjqt2": "0", 
+								"snzbgj": "0", 
+								"snjkcg": "0",
+								"snqtzhsy": "0", 
+								"snyygj": "0", 
+								"snwfply": "0", 
+								"snsyzqyhj": "0", 
+							}
+						]
+					}
+				}
+			}
+		},
+		"files":{
+			"uploadfiles":[  // 上传Excel文件的内容（BASE64）！
+				{"content":""},
+				{"content":""},
+				{"content":""},
+				{"content":""},
+				{"content":""}
+			],
+			"uploadfzfiles":[  // 上传附注文件的内容（BASE64）！
+				{"content":""},
+				{"content":""},
+				{"content":""},
+				{"content":""},
+				{"content":""}
+			]
+		}
+	}
