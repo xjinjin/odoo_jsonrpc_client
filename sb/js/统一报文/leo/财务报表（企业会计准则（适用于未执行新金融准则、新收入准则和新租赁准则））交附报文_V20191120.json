@@ -968,7 +968,7 @@
 								"qtqygjqt1": "0", //其他（其他权益工具）/本年
 								"bnzbgj": "0", //资本公积/本年
 								"bnjkcg": "0", //减：库存股/本年
-								"bnzxcb": "0"//自2019年11月征期 新增字段 专项储备/本年
+								"bnzxcb": "0",//自2019年11月征期 新增字段 专项储备/本年
 								"bnqtzhsy": "0", //其他综合收益/本年
 								"bnyygj": "0", //盈余公积/本年
 								"bnwfply": "0", //未分配利润表/本年
@@ -983,7 +983,7 @@
 								"snqtzhsy": "0", //其他综合收益/上年
 								"snyygj": "0", //盈余公积/上年
 								"snwfply": "0", //未分配利润表/上年
-								"snsyzqyhj": "0", //所有者权益合计/上年								
+								"snsyzqyhj": "0" //所有者权益合计/上年
 							},
 							{
 								"hmc": "加:会计政策变更",
@@ -1009,7 +1009,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "前期差错更正",
@@ -1035,7 +1035,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "二、本年年初余额",
@@ -1060,7 +1060,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "三、本年增减变动金额(减少以–号填列)",
@@ -1086,7 +1086,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(一)综合收益总额",
@@ -1112,7 +1112,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"ewbhxh": 7
@@ -1153,7 +1153,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(二)所有者投入和减少资本",
@@ -1179,7 +1179,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "1.所有者投入的普通股",
@@ -1205,7 +1205,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "3.股份支付计入所有者权益的金额",
@@ -1231,7 +1231,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(二)所有者投入和减少资本_4.其他",
@@ -1257,7 +1257,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(三)利润分配",
@@ -1283,7 +1283,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "1.提取盈余公积",
@@ -1309,7 +1309,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "2.对所有者(或股东)的分配",
@@ -1335,7 +1335,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(三)利润分配_3.其他",
@@ -1361,7 +1361,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(四)所有者权益内部结转",
@@ -1387,7 +1387,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "1.资本公积转增资本(或股本)",
@@ -1413,7 +1413,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "2.盈余公积转增资本(或股本)",
@@ -1439,7 +1439,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "3.盈余公积弥补亏损",
@@ -1465,7 +1465,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "(四)所有者权益内部结转_5.其他",
@@ -1491,7 +1491,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "四、本年年末余额",
@@ -1517,7 +1517,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "一、上年年末余额_其他",
@@ -1543,7 +1543,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "2.其他权益工具持有者投入资本",
@@ -1569,7 +1569,7 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							},
 							{
 								"hmc": "4.设定受益计划变动额结转留存收益",
@@ -1595,14 +1595,14 @@
 								"snqtzhsy": "0", 
 								"snyygj": "0", 
 								"snwfply": "0", 
-								"snsyzqyhj": "0", 
+								"snsyzqyhj": "0"
 							}
 						]
 					}
 				}
 			}
 		},
-		"files":{
+	"files":{
 			"uploadfiles":[  // 上传Excel文件的内容（BASE64）！
 				{"content":""},
 				{"content":""},

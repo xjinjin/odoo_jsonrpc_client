@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/sb10516/sb10516001.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/dsComm/dsComm.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/dsComm/phjzxxComm.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/common/jmqyrysbcj.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/sb10516/sb_sdjspycjrhqydm.js"></script>
+<title></title>
+
+<style type="text/css">
+.textOne{
+	border: 0;
+	text-align: left;
+}
+</style>
+<style type="text/css" mce_bogus="1">
+table th {
+	white-space: nowrap;
+}
+
+table td {
+	white-space: nowrap;
+}
+
+body,table {
+	font-size: 13px;
+}
+body{
+	padding:0px 5px;
+}
+table {
+	empty-cells: show;
+	border-collapse: collapse;
+	margin-left: 1%;
+	width:98%;
+}
+
+h1,h2,h3 {
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+
+table.tab_css_1 {
+	border: 1px solid #cad9ea;
+	color: #666;
+}
+
+table.tab_css_1 th {
+	background-image: url("th_bg1.gif");
+	background-repeat: repeat-x;
+	height: 30px;
+}
+
+/* table.tb td,table.tb th {
+		 border: 1px solid #cad9ea;
+		border: 1px solid #8F8F8F;
+		padding: 0 0 0;
+	}
+	*/
+table.tb th { /* border: 1px solid #cad9ea; */
+	border: 1px solid #8F8F8F;
+	padding: 0 1em 0;
+}
+table.tb *{
+	line-height:30px;
+}
+table.tab_css_1 tr.tr_css {
+	background-color: #f5fafe;
+	height: 30px;
+}
+.addNode input[type=checkbox]{
+	display:none;
+}
+</style>
+
+
+	<div class="etaxTBar"><div class="btn_ho" onclick="goBack();" id="goback_btn"><img src="/shenbao/js/common/image/back.png" alt=""><span>返回</span></div><div class="btn_ho gray" id="save_btn" disabled="disabled"><img src="/shenbao/js/common/image/action_save.gif" alt=""><span>保存</span></div><div class="btn_ho" style="float:right; margin-right:20px" onclick="sbtbsm();" id="sbtbsm_btn"><img src="/shenbao/js/common/image/action_save.gif" alt=""><span>填表说明</span></div><div class="btn_ho_cj" style="margin-right:20px " onclick="qytysbcj();" id="qytysbcj_btn"><span>企业退役士兵采集</span></div><div class="btn_ho_cj" onclick="qyzdqtrycj();" id="qyzdqtrycj_btn"><span>企业重点群体人员采集</span></div></div>
+	<div align="center" class="dbt">城市维护建设税、教育费附加、地方教育附加申报表</div>
+	<br>
+	 <table width="98%" class="tb" align="center" id="tab2" cellpadding="0" cellspacing="0" border="0">
+	 <colgroup>
+    		<col style="width: 30%">
+    		<col style="width: 15%">
+    		<col style="width: 5%">
+    		<col style="width: 12%">
+    		<col style="width: 12%">
+    		<col style="width: 24%">
+    	</colgroup>
+	 <tbody><tr>
+	 	<td style="text-align: right;padding-right: 5px;">税款所属期限:</td>
+	 	<td style="text-align: left;"><input type="text" name="nsrxxvo.skssqq" class="fsrx" readonly="readonly" value="2019-11-01"></td>
+	 	<td style="text-align: center;">至</td>
+	 	<td style="text-align: left;"><input type="text" name="nsrxxvo.skssqz" class="fsrx" readonly="readonly" value="2019-11-30"></td>
+	 	<td colspan="2"></td>
+	 </tr>
+	 <tr>
+	 	<td style="text-align: right;padding-right: 5px;">纳税人识别号（统一社会信用代码）:</td>
+	 	<td colspan="3" style="text-align: left;"><input type="text" name="nsrxxvo.nsrsbh" class="fsrx" readonly="readonly" value="91320214MA1NYKMBXK"></td>
+	 	<td colspan="2"></td>
+	 </tr>
+	 <tr>
+	 	<td style="text-align: right;padding-right: 5px;">纳税人名称:</td>
+	 	<td colspan="3" style="text-align: left;"><input type="text" name="nsrxxvo.nsrmc" class="fsrx" readonly="readonly" value="无锡品凡自动化设备有限公司"></td>
+	 	<td colspan="2" style="text-align: right;">金额单位:人民币元(列至角分)</td>
+
+	 	<input type="hidden" name="nsrxxvo.sfdwgt" value="0">
+	 	<input type="hidden" name="nsrxxvo.djzclxdm" value="173">
+	 	<input type="hidden" name="nsrxxvo.hydm" value="5179">
+	 	<input type="hidden" name="nsrxxvo.sfzjlxdm" value="201">
+	 	<input type="hidden" name="nsrxxvo.sfzjhm" value="321281198912137933">
+	 	<input type="hidden" name="nsrxxvo.lxdh" value="15961853615">
+	 </tr>
+	 <tr>
+			<td rowspan="3" style="text-align: right;padding-right: 5px;" colspan="1">
+			本期是否适用增值税小规模纳税人减征政策<br>
+			(减免性质代码_城市维护建设税:07049901,<br>减免性质代码_教育费附加:61049901,减免性质代码_地方教育附加:99049901)
+			</td>
+			<td rowspan="3" style="padding: 10px;text-align: center;line-height: 15px;">
+			<input type="radio" name="bqsfsyxgmyhzc" value="Y" onclick="changeJz('Y')" disabled="disabled">
+			<label>是</label>
+			<input type="radio" name="bqsfsyxgmyhzc" value="N" onchange="changeJz('N')" checked="checked" disabled="disabled">
+			<label>否</label>
+			</td>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">减征比例_城市维护建设税（%）</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="phjzbl_cswhjss" cal="true" class="fsrx" readonly="readonly">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">减征比例_教育费附加（%）</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="phjzbl_jyffj" cal="true" class="fsrx" readonly="readonly">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">减征比例_地方教育附加（%）</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="phjzbl_dfjyfj" cal="true" class="fsrx" readonly="readonly">
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="text-align: right;padding-right: 5px;" colspan="1">
+			本期是否适用试点建设培育产教融合型企业抵免政策
+			</td>
+			<td rowspan="3" style="padding: 10px;text-align: center;line-height: 15px;">
+			<input type="radio" name="bqsfsycjrhxqyjzzc" value="Y" onclick="changeJspydm('Y')">
+			<label>是</label>
+			<input type="radio" name="bqsfsycjrhxqyjzzc" value="N" onclick="changeJspydm('N')" checked="checked">
+			<label>否</label>
+			</td>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">当期新增投资额</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="dqxztze" cal="true" class="fsrx" onkeyup="this.value=this.value.replace(/^(\-)*(\d+)\.(\d\d).*$/,'$1$2.$3')" readonly="readonly" onblur="changeAllData();" value="0">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">上期留抵可抵免金额</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="sqldkdmje" cal="true" class="fsrx" value="0" readonly="readonly">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: right;padding-right: 5px;">结转下期可抵免金额</td>
+			<td style="text-align: left;" colspan="2">
+			<input type="text" name="jzxqkdmje" cal="true" class="fsrx" value="0" readonly="readonly">
+			</td>
+		</tr>
+	 </tbody></table>
+			<div style="overflow-x:scroll;width: 98%; margin-left:1%" class="outer">
+			<table class="tb" align="center" id="tab1" style="width: 120%" border="1" cellpadding="0" cellspacing="0">
+			 <colgroup>
+    		<col style="width: 6%">
+    		<col style="width: 8%">
+    		<col style="width: 6%">
+    		<col style="width: 6%">
+    		<col style="width: 6%">
+    		<col style="width: 4%">
+    		<col style="width: 6%">
+    		<col style="width: 4%">
+    		<col style="width: 6%">
+    		<col style="width: 10%">
+    		<col style="width: 6%">
+    		<col style="width: 6%">
+    		<col style="width: 10%">
+    		<col style="width: 5%">
+    		<col style="width: 5%">
+    		<col style="width: 9%">
+    	</colgroup>
+   			<tbody><tr>
+	   			<td style="text-align: center;" rowspan="4"><span style="color: red;font-weight: blod;">*</span>征收项目</td>
+	   			<td style="text-align: center;" rowspan="4"><span style="color: red;font-weight: blod;">*</span>征收品目</td>
+	   			<td style="text-align: center;" colspan="5">计税（费）依据</td>
+	   			<td style="text-align: center;" rowspan="3"><span style="color: red;font-weight: blod;">*</span>税率<br>（征收率）</td>
+	   			<td style="text-align: center;" rowspan="3"><span style="color: red;font-weight: blod;">*</span>本期应纳<br>税（费）额</td>
+	   			<td style="text-align: center;" colspan="2" rowspan="2">本期减免税（费）额</td>
+	   			<td style="text-align: center;" rowspan="3">增值税小规模<br>纳税人减征额</td>
+	   			<td style="text-align: center;" rowspan="2" colspan="2">试点建设培育<br>产教融合型企业</td>
+	   			<td style="text-align: center;" rowspan="3"><span style="color: red;font-weight: blod;">*</span>本期已缴<br>税（费）额</td>
+	   			<td style="text-align: center;" rowspan="3"><span style="color: red;font-weight: blod;">*</span>本期应补（退）<br>税（费）额</td>
+   			</tr>
+   			<tr align="center">
+	   			<td style="text-align: center;" colspan="2">增值税</td>
+	   			<td style="text-align: center;" rowspan="2">消费税</td>
+	   			<td style="text-align: center;" rowspan="2">营业税</td>
+	   			<td style="text-align: center;" rowspan="2"><span style="color: red;font-weight: blod;">*</span>合计</td>
+   			</tr>
+   			<tr align="center">
+	   			<td style="text-align: center;">一般增值税</td>
+	   			<td style="text-align: center;">免抵税额</td>
+	   			<td style="text-align: center;"><span style="color: red;font-weight: blod;">*</span>减免性质代码</td>
+	   			<td style="text-align: center;"><span style="color: red;font-weight: blod;">*</span>减免额</td>
+	   			<td style="text-align: center;">减免性质</td>
+	   			<td style="text-align: center;">本期抵<br>免金额</td>
+	   			<!--<td style="text-align: center;" >减免性质代码</td>
+	   			<td style="text-align: center;">减征比例</td>
+	   			<td style="text-align: center;" >增值税小规模纳税人减征额</td>
+   			--></tr>
+   			<tr>
+   				<th>1</th>
+   				<th>2</th>
+   				<th>3</th>
+   				<th>4</th>
+   				<th>5=1+2+3+4</th>
+   				<th>6</th>
+   				<th>7=5×6</th>
+   				<th>8</th>
+   				<th>9</th>
+   				<th>10</th>
+   				<th>11</th>
+   				<th>12</th>
+   				<th>13</th>
+   				<th>14=7-9-10-12-13</th>
+   			</tr>
+
+
+						<tr>
+								<td>
+									<select style="width: 100%" name="zsxmdm" disabled="disabled">
+
+
+												<option value="10109" selected="">城市维护建设税</option>
+
+
+
+
+
+												<option value="30203">教育费附加</option>
+
+
+
+
+												<option value="30216">地方教育附加</option>
+
+
+									</select>
+								</td>
+								<td>
+								<select style="width: 100%" name="zspmdm" disabled="disabled">
+
+
+												<option value="101090101" selected="">市区（增值税附征）</option>
+
+
+
+
+
+												<option value="302030100">增值税教育费附加</option>
+
+
+
+
+												<option value="302160100">增值税地方教育附加</option>
+
+
+									</select>
+								</td>
+							<td><input type="text" style="width: 100%; text-align: right;" class="srx" name="ybzzs" value="2318.15" onblur="jisuanYbzzs(this)" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" name="zzsmdse" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx fsrx" name="xfs" value="0" cal="true" readonly="readonly"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="yys" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="hj" value="2318.15" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="sl1" value="0.07" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqynsfe" value="162.27" cal="true"></td>
+							<td>
+								<select style="width: 100%" name="ssjmxzdm" onchange="changeJmxz(this)">
+										<option value="">请  选  择</option>
+
+
+
+
+
+
+
+
+
+
+														<option value="0007013611" hideval="N" title="0007013611 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901023">0007013611 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+														<option value="0007013613" hideval="N" title="0007013613 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901024">0007013613 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0007011803" hideval="N" title="0007011803 | 退役士兵从事个体经营扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条" swsxdm="SXA031901031">0007011803 | 退役士兵从事个体经营扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条</option>
+
+
+
+
+
+
+														<option value="0007011804" hideval="N" title="0007011804 | 企业招用退役士兵扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条" swsxdm="SXA031901032">0007011804 | 企业招用退役士兵扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0007013610" hideval="N" title="0007013610 | 建档立卡贫困人口从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901040">0007013610 | 建档立卡贫困人口从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+														<option value="0007013612" hideval="N" title="0007013612 | 企业招用建档立卡贫困人口就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901041">0007013612 | 企业招用建档立卡贫困人口就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 受灾地区促进就业企业限额减免城市维护建设税|其他" swsxdm="SXA031900409">0007129999 | 受灾地区促进就业企业限额减免城市维护建设税|其他</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 其他|其他" swsxdm="SXA031999999">0007129999 | 其他|其他</option>
+
+
+
+
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 对国家石油储备基地第一期项目建设过程中涉及的城市维护建设税，予以免征|其他" swsxdm="SXA031900598">0007129999 | 对国家石油储备基地第一期项目建设过程中涉及的城市维护建设税，予以免征|其他</option>
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 文化单位转制为企业时的城市维护建设税优惠|其他" swsxdm="SXA031900599">0007129999 | 文化单位转制为企业时的城市维护建设税优惠|其他</option>
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 被撤销金融机构财产用来清偿债务免征城市维护建设税|其他" swsxdm="SXA031900602">0007129999 | 被撤销金融机构财产用来清偿债务免征城市维护建设税|其他</option>
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 促进就业企业限额减免城市维护建设税|其他" swsxdm="SXA031900603">0007129999 | 促进就业企业限额减免城市维护建设税|其他</option>
+
+
+
+
+
+
+
+
+														<option value="0007064002" hideval="N" title="0007064002 | 国家重大水利工程建设基金免征城市维护建设税|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号" swsxdm="SXA031900212">0007064002 | 国家重大水利工程建设基金免征城市维护建设税|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号</option>
+
+
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 黄金交易所会员单位免征城市维护建设税|其他" swsxdm="SXA031900608">0007129999 | 黄金交易所会员单位免征城市维护建设税|其他</option>
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 金融资产管理公司收购、承接、处置不良资产免征城市维护建设税|其他" swsxdm="SXA031900609">0007129999 | 金融资产管理公司收购、承接、处置不良资产免征城市维护建设税|其他</option>
+
+
+
+
+
+
+														<option value="0007129999" hideval="N" title="0007129999 | 上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征城市维护建设税|其他" swsxdm="SXA031900610">0007129999 | 上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征城市维护建设税|其他</option>
+
+
+
+
+
+
+
+
+
+									</select>
+								<input type="hidden" name="swsxdm" class="srx" value="">
+							</td>
+							<td><input type="text" style="width: 100%;" class="srx" name="jme" negative="false" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="phjmse" cal="true">
+								<input type="hidden" name="phjmswsxdm" class="srx">
+							</td>
+							<td>
+								<select name="jmxzdm" style="width:100%; height: 25px;"><option value="">请选择</option></select>
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="bqdmje" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" negative="false" name="bqyjse" value="0" cal="true">
+								<input type="hidden" name="yjseHidden">
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqybtse" value="162.27" cal="true"></td>
+
+							<input type="hidden" name="phjmxzdm" class="fsrx" readonly="readonly">
+							<input type="hidden" name="phjzbl" class="fsrx" readonly="readonly">
+							<input type="hidden" name="xssr" class="fsrx" value="0.0">
+						</tr>
+
+						<tr>
+								<td>
+									<select style="width: 100%" name="zsxmdm" disabled="disabled">
+
+
+
+												<option value="10109">城市维护建设税</option>
+
+
+
+												<option value="30203" selected="">教育费附加</option>
+
+
+
+
+
+												<option value="30216">地方教育附加</option>
+
+
+									</select>
+								</td>
+								<td>
+								<select style="width: 100%" name="zspmdm" disabled="disabled">
+
+
+
+												<option value="101090101">市区（增值税附征）</option>
+
+
+
+												<option value="302030100" selected="">增值税教育费附加</option>
+
+
+
+
+
+												<option value="302160100">增值税地方教育附加</option>
+
+
+									</select>
+								</td>
+							<td><input type="text" style="width: 100%; text-align: right;" class="srx" name="ybzzs" value="2318.15" onblur="jisuanYbzzs(this)" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" name="zzsmdse" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx fsrx" name="xfs" value="0" cal="true" readonly="readonly"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="yys" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="hj" value="2318.15" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="sl1" value="0.03" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqynsfe" value="69.54" cal="true"></td>
+							<td>
+								<select style="width: 100%" name="ssjmxzdm" onchange="changeJmxz(this)">
+										<option value="">请  选  择</option>
+
+
+
+
+														<option value="0061013610" hideval="N" title="0061013610 | 企业招用建档立卡贫困人口就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901043">0061013610 | 企业招用建档立卡贫困人口就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0061013609" hideval="N" title="0061013609 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901025">0061013609 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+														<option value="0061013611" hideval="N" title="0061013611 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901026">0061013611 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0061011803" hideval="N" title="0061011803 | 退役士兵从事个体经营扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条" swsxdm="SXA031901033">0061011803 | 退役士兵从事个体经营扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条</option>
+
+
+
+
+
+
+														<option value="0061011804" hideval="N" title="0061011804 | 企业招用退役士兵扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条" swsxdm="SXA031901034">0061011804 | 企业招用退役士兵扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0061013608" hideval="N" title="0061013608 | 建档立卡贫困人口从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901042">0061013608 | 建档立卡贫困人口从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 被撤销金融机构清偿债务免征教育费附加|其他" swsxdm="SXA031900681">0061129999 | 被撤销金融机构清偿债务免征教育费附加|其他</option>
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 除高校毕业生以外的失业人员从事个体经营，扣减教育费附加|其他" swsxdm="SXA031900685">0061129999 | 除高校毕业生以外的失业人员从事个体经营，扣减教育费附加|其他</option>
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 高校毕业生从事个体经营，扣减教育费附加|其他" swsxdm="SXA031900686">0061129999 | 高校毕业生从事个体经营，扣减教育费附加|其他</option>
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征教育费附加|其他" swsxdm="SXA031900687">0061129999 | 上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征教育费附加|其他</option>
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 安置自谋职业的城镇退役士兵企业免征教育费附加|其他" swsxdm="SXA031900016">0061129999 | 安置自谋职业的城镇退役士兵企业免征教育费附加|其他</option>
+
+
+
+
+
+
+														<option value="0061042802" hideval="N" title="0061042802 | 按月纳税的月销售额或营业额不超过10万元缴纳义务人免征教育费附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条" swsxdm="SXA031900783">0061042802 | 按月纳税的月销售额或营业额不超过10万元缴纳义务人免征教育费附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条</option>
+
+
+
+
+
+
+
+
+														<option value="0061129999" hideval="N" title="0061129999 | 其他|其他" swsxdm="SXA031999999">0061129999 | 其他|其他</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0061064002" hideval="N" title="0061064002 | 国家重大水利工程建设基金免征教育费附加|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号" swsxdm="SXA031900213">0061064002 | 国家重大水利工程建设基金免征教育费附加|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0061101402" hideval="N" title="0061101402 | 产教融合型企业教育费附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条" swsxdm="SXA031901065">0061101402 | 产教融合型企业教育费附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条</option>
+
+
+
+
+
+									</select>
+								<input type="hidden" name="swsxdm" class="srx" value="">
+							</td>
+							<td><input type="text" style="width: 100%;" class="srx" name="jme" negative="false" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="phjmse" cal="true">
+								<input type="hidden" name="phjmswsxdm" class="srx">
+							</td>
+							<td>
+								<select name="jmxzdm" style="width:100%; height: 25px;"><option value="">请选择</option></select>
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="bqdmje" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" negative="false" name="bqyjse" value="0" cal="true">
+								<input type="hidden" name="yjseHidden">
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqybtse" value="69.54" cal="true"></td>
+
+							<input type="hidden" name="phjmxzdm" class="fsrx" readonly="readonly">
+							<input type="hidden" name="phjzbl" class="fsrx" readonly="readonly">
+							<input type="hidden" name="xssr" class="fsrx" value="0.0">
+						</tr>
+
+						<tr>
+								<td>
+									<select style="width: 100%" name="zsxmdm" disabled="disabled">
+
+
+
+												<option value="10109">城市维护建设税</option>
+
+
+
+
+												<option value="30203">教育费附加</option>
+
+
+
+												<option value="30216" selected="">地方教育附加</option>
+
+
+
+									</select>
+								</td>
+								<td>
+								<select style="width: 100%" name="zspmdm" disabled="disabled">
+
+
+
+												<option value="101090101">市区（增值税附征）</option>
+
+
+
+
+												<option value="302030100">增值税教育费附加</option>
+
+
+
+												<option value="302160100" selected="">增值税地方教育附加</option>
+
+
+
+									</select>
+								</td>
+							<td><input type="text" style="width: 100%; text-align: right;" class="srx" name="ybzzs" value="2318.15" onblur="jisuanYbzzs(this)" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" name="zzsmdse" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx fsrx" name="xfs" value="0" cal="true" readonly="readonly"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="yys" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="hj" value="2318.15" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="sl1" value="0.02" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqynsfe" value="46.36" cal="true"></td>
+							<td>
+								<select style="width: 100%" name="ssjmxzdm" onchange="changeJmxz(this)">
+										<option value="">请  选  择</option>
+
+
+
+
+
+
+														<option value="0099013601" hideval="N" title="0099013601 | 建档立卡贫困人口从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901044">0099013601 | 建档立卡贫困人口从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+														<option value="0099013603" hideval="N" title="0099013603 | 企业招用建档立卡贫困人口就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901045">0099013603 | 企业招用建档立卡贫困人口就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0099013602" hideval="N" title="0099013602 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条" swsxdm="SXA031901027">0099013602 | 登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条</option>
+
+
+
+
+
+
+														<option value="0099013604" hideval="N" title="0099013604 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条" swsxdm="SXA031901028">0099013604 | 企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0099011801" hideval="N" title="0099011801 | 退役士兵从事个体经营扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条" swsxdm="SXA031901035">0099011801 | 退役士兵从事个体经营扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条</option>
+
+
+
+
+
+
+														<option value="0099011802" hideval="N" title="0099011802 | 企业招用退役士兵扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条" swsxdm="SXA031901036">0099011802 | 企业招用退役士兵扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0099129999" hideval="N" title="0099129999 | 其他|其他" swsxdm="SXA031999999">0099129999 | 其他|其他</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0099021901" hideval="N" title="0099021901 | 光伏发电免征政府性基金|《财政部关于对分布式光伏发电自发自用电量免征政府性基金有关问题的通知》 财综〔2013〕103号" swsxdm="SXA031900192">0099021901 | 光伏发电免征政府性基金|《财政部关于对分布式光伏发电自发自用电量免征政府性基金有关问题的通知》 财综〔2013〕103号</option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+														<option value="0099042802" hideval="N" title="0099042802 | 除小规模纳税人外月（季）销售额小于10（30）万元免征地方教育附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条第（一）款" swsxdm="SXA031901054">0099042802 | 除小规模纳税人外月（季）销售额小于10（30）万元免征地方教育附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条第（一）款</option>
+
+
+
+
+
+
+
+
+														<option value="0099101401" hideval="N" title="0099101401 | 产教融合型企业地方教育附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条" swsxdm="SXA031901066">0099101401 | 产教融合型企业地方教育附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条</option>
+
+
+
+									</select>
+								<input type="hidden" name="swsxdm" class="srx" value="">
+							</td>
+							<td><input type="text" style="width: 100%;" class="srx" name="jme" negative="false" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="phjmse" cal="true">
+								<input type="hidden" name="phjmswsxdm" class="srx">
+							</td>
+							<td>
+								<select name="jmxzdm" style="width:100%; height: 25px;"><option value="">请选择</option></select>
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" negative="false" name="bqdmje" value="0" cal="true"></td>
+							<td><input type="text" style="width: 100%;" class="srx" negative="false" name="bqyjse" value="0" cal="true">
+								<input type="hidden" name="yjseHidden">
+							</td>
+							<td><input type="text" style="width: 100%;" class="fsrx" readonly="readonly" name="bqybtse" value="46.36" cal="true"></td>
+
+							<input type="hidden" name="phjmxzdm" class="fsrx" readonly="readonly">
+							<input type="hidden" name="phjzbl" class="fsrx" readonly="readonly">
+							<input type="hidden" name="xssr" class="fsrx" value="0.0">
+						</tr>
+
+
+				<tr>
+			<th style="text-align: center;" colspan="2">合计</th>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="ybzss_hj" readonly="readonly" class="fsrx" cal="true" value="6954.45">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="zzsmdse_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="xfs_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="yys_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="hj_hj" readonly="readonly" class="fsrx" cal="true" value="6954.45">
+			</td>
+			<td style="text-align: center;">——</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="bqynse_hj" readonly="readonly" class="fsrx" cal="true" value="278.17">
+			</td>
+			<td style="text-align: center;">——</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="jmse_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="phjmse_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">——</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="bqdmje_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="bqyjse_hj" readonly="readonly" class="fsrx" cal="true" value="0.00">
+			</td>
+			<td style="text-align: center;">
+				<input type="text" style="width: 100%;" name="bqybtse_hj" readonly="readonly" class="fsrx" cal="true" value="278.17">
+			</td>
+		</tr>
+		<tr>
+				<td colspan="2" style="text-align: right;padding-right: 5px;">计税依据修改原因</td>
+				<td colspan="14" style="height: 80px;">
+					<textarea name="jsyjxgyy" id="jsyjxgyy" style="width: 99.8%;height: 80px;" class="srx"></textarea>
+				</td>
+			</tr>
+		<tr>
+        	<th colspan="16" style="text-align: left;padding-left: 50px;">以下由纳税人填写：</th>
+        </tr>
+			<tr>
+				<th align="center" colspan="2">谨声明</th>
+				<td colspan="14" style="text-align: left;padding-left: 50px;font-size: 12px;">本纳税申报表是根据国家税收法律法规及相关规定填报的，是真实的、可靠的、完整的。</td>
+			</tr>
+    </tbody></table>
+     <div><span id="mess" style="color: red;padding-left: 5px;font-size:15px;padding-bottom: 10px;">
+    	友情提示：月销售额不超过10万元（按季纳税的30万元）的增值税一般纳税人、小规模纳税人、消费税纳税人均可享受免征教育费附加和地方教育附加的政策。符合政策的纳税人请正确选择相应减免性质代码并录入减免税（费）额进行申报。
+    </span></div>
+    </div>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+
+<link href="https://etax.jiangsu.chinatax.gov.cn/shenbao/css/common/etax.css?v=1.0.0.1" type="text/css" rel="stylesheet">
+<link href="https://etax.jiangsu.chinatax.gov.cn/shenbao/css/etaxtoolbar/etaxtoolbar.css?v=1.0.0.1" type="text/css" rel="stylesheet">
+<link href="https://etax.jiangsu.chinatax.gov.cn/shenbao/css/common/loadbar.css" type="text/css" rel="stylesheet">
+<link href="https://etax.jiangsu.chinatax.gov.cn/shenbao/css/common/bblist.css" type="text/css" rel="stylesheet">
+<link href="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/layer/skin/layer.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/jquery/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/jquery/jquery.json.min.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/jquery/jquery.cookie.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/layer/layer.min.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/lib/layer/layerHandler.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/ajaxPlugin.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/etaxCal.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/etaxAjaxTool.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/etaxCommon.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/jquery.bblist.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/etaxToolbar.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/etaxMoneyCal.js"></script>
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/My97DatePicker/WdatePicker.js"></script>
+<!-- è´¢å¡æ¥è¡¨é¡µé¢åå§åæ¶å¢å å¬å±æç¤ºä¿¡æ¯ -->
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/js/common/cwbbPrompt.js"></script>
+ <input type="hidden" name="sbzbstate" id="sbzbstate" value="7">
+ <input type="hidden" name="sjly" id="sjly" value="null">
+
+
+
+<script type="text/javascript" src="https://etax.jiangsu.chinatax.gov.cn/shenbao/pages/dsComm/jbrxxComm.js"></script>
+<title></title>
+
+
+    <table width="98%" class="tb" align="center" id="jbrxxTab" cellpadding="0" cellspacing="0" border="1">
+    <colgroup>
+    		<col style="width: 19%">
+    		<col style="width: 29%">
+    		<col style="width: 19%">
+    		<col style="width: 29%">
+    		<!-- <col style="width: 10%" />
+    		<col style="width: 12%" /> -->
+    	</colgroup>
+           <tbody><tr>
+	            <td style="text-align: right;padding-right: 5px;">经办人:</td>
+	            <td style="text-align:center;">
+	                <input name="sqr" class="srx" value="姜艳梅">
+	            </td>
+	             <td style="text-align: right;padding-right: 5px;">经办人身份证号码:</td>
+	            <td style="text-align:center;">
+	                <input name="dlrsfzjhm" class="srx" value="321322198810066084">
+	            </td>
+             </tr>
+              <tr>
+	            <td style="text-align: right;padding-right: 5px;">代理机构:</td>
+	            <td style="text-align:center;">
+	                <input name="dlrmc" class="srx" value="">
+	            </td>
+	             <td style="text-align: right;padding-right: 5px;">代理机构统一社会信用代码:</td>
+	            <td style="text-align:center;">
+	                <input name="smr" class="srx" value="">
+        </td></tr>
+    </tbody></table>
+
+
+
+     <input type="hidden" name="hpyhxxJsonStr" id="hpyhxxJsonStr" value="[{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0007049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900988&quot;,&quot;zsxm_dm&quot;:&quot;10109&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0061049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900993&quot;,&quot;zsxm_dm&quot;:&quot;30203&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0099049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900994&quot;,&quot;zsxm_dm&quot;:&quot;30216&quot;}]">
+     <input type="hidden" name="xgmnsrbz" id="xgmnsrbz" value="N">
+    <input type="hidden" name="commJsonData" id="commJsonData" value="{&quot;djxh&quot;:&quot;10113202010000066973&quot;,&quot;jmxxlist&quot;:[],&quot;sbxxlist&quot;:[{&quot;djxh&quot;:1.0113202010000067E+19,&quot;hydm&quot;:&quot;5179&quot;,&quot;jkqx&quot;:&quot;2019-12-16&quot;,&quot;jkqxdm&quot;:&quot;04&quot;,&quot;jmse&quot;:&quot;0.0&quot;,&quot;jsyj&quot;:&quot;0.0&quot;,&quot;mxxh&quot;:&quot;1 &quot;,&quot;nsqxdm&quot;:&quot;06&quot;,&quot;rdpzuuid&quot;:&quot;84D934BAE0C3E6EBE053025B0C8DB46A&quot;,&quot;rdzsuuid&quot;:&quot;0&quot;,&quot;sb_zlid&quot;:&quot;10516&quot;,&quot;sbqx&quot;:&quot;2019-12-16&quot;,&quot;sbqxdm&quot;:&quot;04&quot;,&quot;sfysb&quot;:&quot;N &quot;,&quot;skssqq&quot;:&quot;2019-11-01&quot;,&quot;skssqz&quot;:&quot;2019-11-30&quot;,&quot;sl1&quot;:&quot;0.07&quot;,&quot;uuid&quot;:&quot;83f69a414dc64e2996060fc1c7b90a07&quot;,&quot;xssr&quot;:&quot;0.0&quot;,&quot;yjse&quot;:&quot;0.0&quot;,&quot;yjse1&quot;:&quot;0.0&quot;,&quot;ynse&quot;:&quot;0.0&quot;,&quot;ysbje&quot;:&quot;0.0&quot;,&quot;zfsbz&quot;:&quot;2&quot;,&quot;zgswskfjdm&quot;:&quot;13202980000&quot;,&quot;zsdlfsdm&quot;:&quot;0&quot;,&quot;zsl&quot;:&quot;0.0&quot;,&quot;zspmdm&quot;:&quot;101090101&quot;,&quot;zspmmc&quot;:&quot;市区（增值税附征）&quot;,&quot;zsxmdm&quot;:&quot;10109&quot;,&quot;zsxmmc&quot;:&quot;城市维护建设税&quot;},{&quot;djxh&quot;:1.0113202010000067E+19,&quot;hydm&quot;:&quot;5179&quot;,&quot;jkqx&quot;:&quot;2019-12-16&quot;,&quot;jkqxdm&quot;:&quot;04&quot;,&quot;jmse&quot;:&quot;0.0&quot;,&quot;jsyj&quot;:&quot;0.0&quot;,&quot;mxxh&quot;:&quot;2 &quot;,&quot;nsqxdm&quot;:&quot;06&quot;,&quot;rdpzuuid&quot;:&quot;84D934BB3415E6C2E053025B0C8D5140&quot;,&quot;rdzsuuid&quot;:&quot;0&quot;,&quot;sb_zlid&quot;:&quot;10516&quot;,&quot;sbqx&quot;:&quot;2019-12-16&quot;,&quot;sbqxdm&quot;:&quot;04&quot;,&quot;sfysb&quot;:&quot;N &quot;,&quot;skssqq&quot;:&quot;2019-11-01&quot;,&quot;skssqz&quot;:&quot;2019-11-30&quot;,&quot;sl1&quot;:&quot;0.03&quot;,&quot;uuid&quot;:&quot;83f69a414dc64e2996060fc1c7b90a07&quot;,&quot;xssr&quot;:&quot;0.0&quot;,&quot;yjse&quot;:&quot;0.0&quot;,&quot;yjse1&quot;:&quot;0.0&quot;,&quot;ynse&quot;:&quot;0.0&quot;,&quot;ysbje&quot;:&quot;0.0&quot;,&quot;zfsbz&quot;:&quot;2&quot;,&quot;zgswskfjdm&quot;:&quot;13202980000&quot;,&quot;zsdlfsdm&quot;:&quot;0&quot;,&quot;zsl&quot;:&quot;0.0&quot;,&quot;zspmdm&quot;:&quot;302030100&quot;,&quot;zspmmc&quot;:&quot;增值税教育费附加&quot;,&quot;zsxmdm&quot;:&quot;30203&quot;,&quot;zsxmmc&quot;:&quot;教育费附加&quot;},{&quot;djxh&quot;:1.0113202010000067E+19,&quot;hydm&quot;:&quot;5179&quot;,&quot;jkqx&quot;:&quot;2019-12-16&quot;,&quot;jkqxdm&quot;:&quot;04&quot;,&quot;jmse&quot;:&quot;0.0&quot;,&quot;jsyj&quot;:&quot;0.0&quot;,&quot;mxxh&quot;:&quot;0 &quot;,&quot;nsqxdm&quot;:&quot;06&quot;,&quot;rdpzuuid&quot;:&quot;84D934B8C76DE6EFE053025B0C8DA9D6&quot;,&quot;rdzsuuid&quot;:&quot;0&quot;,&quot;sb_zlid&quot;:&quot;10516&quot;,&quot;sbqx&quot;:&quot;2019-12-16&quot;,&quot;sbqxdm&quot;:&quot;04&quot;,&quot;sfysb&quot;:&quot;N &quot;,&quot;skssqq&quot;:&quot;2019-11-01&quot;,&quot;skssqz&quot;:&quot;2019-11-30&quot;,&quot;sl1&quot;:&quot;0.02&quot;,&quot;uuid&quot;:&quot;83f69a414dc64e2996060fc1c7b90a07&quot;,&quot;xssr&quot;:&quot;0.0&quot;,&quot;yjse&quot;:&quot;0.0&quot;,&quot;yjse1&quot;:&quot;0.0&quot;,&quot;ynse&quot;:&quot;0.0&quot;,&quot;ysbje&quot;:&quot;0.0&quot;,&quot;zfsbz&quot;:&quot;2&quot;,&quot;zgswskfjdm&quot;:&quot;13202980000&quot;,&quot;zsdlfsdm&quot;:&quot;0&quot;,&quot;zsl&quot;:&quot;0.0&quot;,&quot;zspmdm&quot;:&quot;302160100&quot;,&quot;zspmmc&quot;:&quot;增值税地方教育附加&quot;,&quot;zsxmdm&quot;:&quot;30216&quot;,&quot;zsxmmc&quot;:&quot;地方教育附加&quot;}],&quot;sbzlid&quot;:&quot;10516&quot;,&quot;yjxxlist&quot;:[]}">
+    <input type="hidden" tabindex="-1" id="jsgsData" name="jsgsData" value="{&quot;tab1&quot;:[{&quot;GS&quot;:&quot;jsDataAll(e)&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;98&quot;},{&quot;GS&quot;:&quot;ybzss_hj = ybzzs&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;zzsmdse_hj = zzsmdse&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;xfs_hj = xfs&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;yys_hj = yys&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;hj_hj = hj&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;bqynse_hj = bqynsfe&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;jmse_hj = jme&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;phjmse_hj = phjmse&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;bqdmje_hj = bqdmje&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;bqyjse_hj = bqyjse&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;},{&quot;GS&quot;:&quot;bqybtse_hj = bqybtse&quot;,&quot;GSLX&quot;:&quot;Y&quot;,&quot;TYPE&quot;:&quot;0&quot;}]}">
+   	<input type="hidden" tabindex="-1" id="jsonData" name="jsonData" value="{&quot;hpyhxxlist&quot;:[{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0006049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900987&quot;,&quot;zsxm_dm&quot;:&quot;10107&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0007049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900988&quot;,&quot;zsxm_dm&quot;:&quot;10109&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0009049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900989&quot;,&quot;zsxm_dm&quot;:&quot;10111&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0008049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900990&quot;,&quot;zsxm_dm&quot;:&quot;10110&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0010049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900991&quot;,&quot;zsxm_dm&quot;:&quot;10112&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0014049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900992&quot;,&quot;zsxm_dm&quot;:&quot;10118&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0061049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900993&quot;,&quot;zsxm_dm&quot;:&quot;30203&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0099049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900994&quot;,&quot;zsxm_dm&quot;:&quot;30216&quot;},{&quot;jkzl&quot;:&quot;1&quot;,&quot;jmfd&quot;:50,&quot;ssjmxz_dm&quot;:&quot;0099049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;zsxm_dm&quot;:&quot;30127&quot;}],&quot;jmxzlist&quot;:[{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061013610&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用建档立卡贫困人口就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901043&quot;,&quot;swsxmc&quot;:&quot;企业招用建档立卡贫困人口就业扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099013601&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;建档立卡贫困人口从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901044&quot;,&quot;swsxmc&quot;:&quot;建档立卡贫困人口从事个体经营扣减地方教育附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099013603&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用建档立卡贫困人口就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901045&quot;,&quot;swsxmc&quot;:&quot;企业招用建档立卡贫困人口就业扣减地方教育附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0.5,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;ssjmxzmcnew&quot;:&quot;增值税小规模纳税人城市维护建设税减征|《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900988&quot;,&quot;swsxmc&quot;:&quot;增值税小规模纳税人城市维护建设税减征&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0.5,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;ssjmxzmcnew&quot;:&quot;增值税小规模纳税人教育费附加减征|《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900993&quot;,&quot;swsxmc&quot;:&quot;增值税小规模纳税人教育费附加减征&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0.5,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099049901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;ssjmxzmcnew&quot;:&quot;增值税小规模纳税人地方教育附加减征|《财政部 税务总局关于实施小微企业普惠性税收减免政策的通知》 财税〔2019〕13号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900994&quot;,&quot;swsxmc&quot;:&quot;增值税小规模纳税人地方教育附加减征&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007013611&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901023&quot;,&quot;swsxmc&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007013613&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901024&quot;,&quot;swsxmc&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061013609&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901025&quot;,&quot;swsxmc&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061013611&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901026&quot;,&quot;swsxmc&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099013602&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901027&quot;,&quot;swsxmc&quot;:&quot;登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生从事个体经营扣减地方教育附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099013604&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减地方教育附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901028&quot;,&quot;swsxmc&quot;:&quot;企业招用登记失业半年以上人员，零就业家庭、享受城市低保登记失业人员，毕业年度内高校毕业生就业扣减地方教育附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007011803&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;退役士兵从事个体经营扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901031&quot;,&quot;swsxmc&quot;:&quot;退役士兵从事个体经营扣减城市维护建设税优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007011804&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用退役士兵扣减城市维护建设税优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901032&quot;,&quot;swsxmc&quot;:&quot;企业招用退役士兵扣减城市维护建设税优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061011803&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;退役士兵从事个体经营扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901033&quot;,&quot;swsxmc&quot;:&quot;退役士兵从事个体经营扣减教育费附加优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061011804&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用退役士兵扣减教育费附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901034&quot;,&quot;swsxmc&quot;:&quot;企业招用退役士兵扣减教育费附加优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099011801&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;退役士兵从事个体经营扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901035&quot;,&quot;swsxmc&quot;:&quot;退役士兵从事个体经营扣减地方教育附加优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099011802&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用退役士兵扣减地方教育附加优惠|《财政部 税务总局 退役军人部关于进一步扶持自主就业退役士兵创业就业有关税收政策的通知》 财税〔2019〕21号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901036&quot;,&quot;swsxmc&quot;:&quot;企业招用退役士兵扣减地方教育附加优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007013610&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;建档立卡贫困人口从事个体经营扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901040&quot;,&quot;swsxmc&quot;:&quot;建档立卡贫困人口从事个体经营扣减城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007013612&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;ssjmxzmcnew&quot;:&quot;企业招用建档立卡贫困人口就业扣减城市维护建设税|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第二条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901041&quot;,&quot;swsxmc&quot;:&quot;企业招用建档立卡贫困人口就业扣减城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;01&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061013608&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;建档立卡贫困人口从事个体经营扣减教育费附加|《财政部 税务总局 人力资源社会保障部 国务院扶贫办关于进一步支持和促进重点群体创业就业有关税收政策的通知》 财税〔2019〕22号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901042&quot;,&quot;swsxmc&quot;:&quot;建档立卡贫困人口从事个体经营扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1640880000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:121},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;受灾地区促进就业企业限额减免城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900409&quot;,&quot;swsxmc&quot;:&quot;受灾地区促进就业企业限额减免城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;被撤销金融机构清偿债务免征教育费附加|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900681&quot;,&quot;swsxmc&quot;:&quot;被撤销金融机构清偿债务免征教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;除高校毕业生以外的失业人员从事个体经营，扣减教育费附加|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900685&quot;,&quot;swsxmc&quot;:&quot;除高校毕业生以外的失业人员从事个体经营，扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;高校毕业生从事个体经营，扣减教育费附加|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900686&quot;,&quot;swsxmc&quot;:&quot;高校毕业生从事个体经营，扣减教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征教育费附加|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900687&quot;,&quot;swsxmc&quot;:&quot;上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;安置自谋职业的城镇退役士兵企业免征教育费附加|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900016&quot;,&quot;swsxmc&quot;:&quot;安置自谋职业的城镇退役士兵企业免征教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061042802&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条&quot;,&quot;ssjmxzmcnew&quot;:&quot;按月纳税的月销售额或营业额不超过10万元缴纳义务人免征教育费附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条&quot;,&quot;swsx_dm&quot;:&quot;SXA031900783&quot;,&quot;swsxmc&quot;:&quot;按月纳税的月销售额或营业额不超过10万元缴纳义务人免征教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1451577600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:116},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;其他|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031999999&quot;,&quot;swsxmc&quot;:&quot;其他&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;其他|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031999999&quot;,&quot;swsxmc&quot;:&quot;其他&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;其他|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031999999&quot;,&quot;swsxmc&quot;:&quot;其他&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;对国家石油储备基地第一期项目建设过程中涉及的城市维护建设税，予以免征|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900598&quot;,&quot;swsxmc&quot;:&quot;对国家石油储备基地第一期项目建设过程中涉及的城市维护建设税，予以免征&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;文化单位转制为企业时的城市维护建设税优惠|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900599&quot;,&quot;swsxmc&quot;:&quot;文化单位转制为企业时的城市维护建设税优惠&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;被撤销金融机构财产用来清偿债务免征城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900602&quot;,&quot;swsxmc&quot;:&quot;被撤销金融机构财产用来清偿债务免征城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;促进就业企业限额减免城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900603&quot;,&quot;swsxmc&quot;:&quot;促进就业企业限额减免城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099021901&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部关于对分布式光伏发电自发自用电量免征政府性基金有关问题的通知》 财综〔2013〕103号&quot;,&quot;ssjmxzmcnew&quot;:&quot;光伏发电免征政府性基金|《财政部关于对分布式光伏发电自发自用电量免征政府性基金有关问题的通知》 财综〔2013〕103号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900192&quot;,&quot;swsxmc&quot;:&quot;光伏发电免征政府性基金&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007064002&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号&quot;,&quot;ssjmxzmcnew&quot;:&quot;国家重大水利工程建设基金免征城市维护建设税|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900212&quot;,&quot;swsxmc&quot;:&quot;国家重大水利工程建设基金免征城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:25,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:4,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1274716800000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:110},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061064002&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号&quot;,&quot;ssjmxzmcnew&quot;:&quot;国家重大水利工程建设基金免征教育费附加|《财政部 国家税务总局关于免征国家重大水利工程建设基金的城市维护建设税和教育费附加的通知》 财税〔2010〕44号&quot;,&quot;swsx_dm&quot;:&quot;SXA031900213&quot;,&quot;swsxmc&quot;:&quot;国家重大水利工程建设基金免征教育费附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:25,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:4,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1274716800000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:110},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;黄金交易所会员单位免征城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900608&quot;,&quot;swsxmc&quot;:&quot;黄金交易所会员单位免征城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;金融资产管理公司收购、承接、处置不良资产免征城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900609&quot;,&quot;swsxmc&quot;:&quot;金融资产管理公司收购、承接、处置不良资产免征城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0007129999&quot;,&quot;ssjmxzmc&quot;:&quot;其他&quot;,&quot;ssjmxzmcnew&quot;:&quot;上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征城市维护建设税|其他&quot;,&quot;swsx_dm&quot;:&quot;SXA031900610&quot;,&quot;swsxmc&quot;:&quot;上海期货交易所会员和客户通过上海期货交易所销售标准黄金,发生实物交割并已出库的，免征城市维护建设税&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:-2209017600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:0},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;10109&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099042802&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条第（一）款&quot;,&quot;ssjmxzmcnew&quot;:&quot;除小规模纳税人外月（季）销售额小于10（30）万元免征地方教育附加|《财政部 国家税务总局关于扩大有关政府性基金免征范围的通知》 财税〔2016〕12号第一条第（一）款&quot;,&quot;swsx_dm&quot;:&quot;SXA031901054&quot;,&quot;swsxmc&quot;:&quot;除小规模纳税人外月（季）销售额小于10（30）万元免征地方教育附加&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:1,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:1,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1454256000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:116},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30216&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0061101402&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条&quot;,&quot;ssjmxzmcnew&quot;:&quot;产教融合型企业教育费附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901065&quot;,&quot;swsxmc&quot;:&quot;产教融合型企业教育费附加抵免&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30203&quot;},{&quot;jmed&quot;:0,&quot;jmfd&quot;:0,&quot;jmsl&quot;:0,&quot;jmzlx_dm&quot;:&quot;02&quot;,&quot;sortbz&quot;:&quot;1&quot;,&quot;spbabz&quot;:&quot;N&quot;,&quot;ssjmxz_dm&quot;:&quot;0099101401&quot;,&quot;ssjmxzmc&quot;:&quot;《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条&quot;,&quot;ssjmxzmcnew&quot;:&quot;产教融合型企业地方教育附加抵免|《财政部关于调整部分政府性基金有关政策的通知》 财税﹝2019〕46号第三条&quot;,&quot;swsx_dm&quot;:&quot;SXA031901066&quot;,&quot;swsxmc&quot;:&quot;产教融合型企业地方教育附加抵免&quot;,&quot;ywlc_dm&quot;:&quot;LCA031005&quot;,&quot;yxqq&quot;:{&quot;date&quot;:1,&quot;day&quot;:2,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:0,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:1546272000000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:119},&quot;yxqz&quot;:{&quot;date&quot;:31,&quot;day&quot;:5,&quot;hours&quot;:0,&quot;minutes&quot;:0,&quot;month&quot;:11,&quot;nanos&quot;:0,&quot;seconds&quot;:0,&quot;time&quot;:253402185600000,&quot;timezoneOffset&quot;:-480,&quot;year&quot;:8099},&quot;zsxmdmba&quot;:&quot;30216&quot;}],&quot;kdqsssrfpbz&quot;:&quot;N&quot;,&quot;sbkssssrfpbllist&quot;:[],&quot;sqldkdmje&quot;:&quot;0.0&quot;,&quot;xgmnsrbz&quot;:&quot;N&quot;,&quot;zspmdzlist&quot;:[{&quot;hydm&quot;:&quot;&quot;,&quot;nsqxdm&quot;:&quot;&quot;,&quot;rdpzuuid&quot;:&quot;&quot;,&quot;sbqxdm&quot;:&quot;&quot;,&quot;skgkdm&quot;:&quot;&quot;,&quot;skssqq&quot;:&quot;&quot;,&quot;skssqz&quot;:&quot;&quot;,&quot;sl1&quot;:&quot;0.02&quot;,&quot;ysfpbldm&quot;:&quot;&quot;,&quot;yskmdm&quot;:&quot;&quot;,&quot;zfsbz&quot;:&quot;&quot;,&quot;zsdlfsdm&quot;:&quot;&quot;,&quot;zspmdm&quot;:&quot;302160100&quot;,&quot;zspmmc&quot;:&quot;增值税地方教育附加&quot;,&quot;zsxmdm&quot;:&quot;30216&quot;},{&quot;hydm&quot;:&quot;&quot;,&quot;nsqxdm&quot;:&quot;&quot;,&quot;rdpzuuid&quot;:&quot;&quot;,&quot;sbqxdm&quot;:&quot;&quot;,&quot;skgkdm&quot;:&quot;&quot;,&quot;skssqq&quot;:&quot;&quot;,&quot;skssqz&quot;:&quot;&quot;,&quot;sl1&quot;:&quot;0.07&quot;,&quot;ysfpbldm&quot;:&quot;&quot;,&quot;yskmdm&quot;:&quot;&quot;,&quot;zfsbz&quot;:&quot;&quot;,&quot;zsdlfsdm&quot;:&quot;&quot;,&quot;zspmdm&quot;:&quot;101090101&quot;,&quot;zspmmc&quot;:&quot;市区（增值税附征）&quot;,&quot;zsxmdm&quot;:&quot;10109&quot;},{&quot;hydm&quot;:&quot;&quot;,&quot;nsqxdm&quot;:&quot;&quot;,&quot;rdpzuuid&quot;:&quot;&quot;,&quot;sbqxdm&quot;:&quot;&quot;,&quot;skgkdm&quot;:&quot;&quot;,&quot;skssqq&quot;:&quot;&quot;,&quot;skssqz&quot;:&quot;&quot;,&quot;sl1&quot;:&quot;0.03&quot;,&quot;ysfpbldm&quot;:&quot;&quot;,&quot;yskmdm&quot;:&quot;&quot;,&quot;zfsbz&quot;:&quot;&quot;,&quot;zsdlfsdm&quot;:&quot;&quot;,&quot;zspmdm&quot;:&quot;302030100&quot;,&quot;zspmmc&quot;:&quot;增值税教育费附加&quot;,&quot;zsxmdm&quot;:&quot;30203&quot;}]}">
+	<input type="hidden" tabindex="-1" id="sign" name="sign" value="queryData">
+	<input type="hidden" tabindex="-1" id="lsh" name="lsh" value="d101132020100000669731911110610516">
+	<input type="hidden" tabindex="-1" name="sssq_q" id="sssq_q" value="2019-11-01">
+	<input type="hidden" tabindex="-1" name="sssq_z" id="sssq_z" value="2019-11-30">
+	<input type="hidden" tabindex="-1" name="sb_zlid" id="sb_zlid" value="10516">
+	<input type="hidden" tabindex="-1" name="bb_zlbh" id="bb_zlbh" value="10516001">
+	<input type="hidden" tabindex="-1" name="sb_type" id="sb_type" value="45">
+	<input type="hidden" tabindex="-1" name="zsxm_dm" id="zsxm_dm" value="">
+	<input type="hidden" tabindex="-1" name="nsqx_dm" id="nsqx_dm" value="06">
+
+	<!--申报错误更正参数 -->
+	<input name="pageload_bz" type="hidden" value="init">
+	<input type="hidden" name="sbcwgzbz" id="sbcwgzbz" value="N">
+ 	<input type="hidden" name="sbcwgzJsonData" id="sbcwgzJsonData" value="null">
+ 	<input type="hidden" name="pzxh" id="pzxh" value="">
+ 	<input type="hidden" name="sbuuid" id="sbuuid" value="">
+ 	<input type="hidden" name="sbcwgzbblist" id="sbcwgzbblist" value="">
+
+
+    <script type="text/javascript">
+var iosOverlayObj;
+function loading(){
+	var opts = {
+		lines: 13, // The number of lines to draw
+		length: 11, // The length of each line
+		width: 5, // The line thickness
+		radius: 17, // The radius of the inner circle
+		corners: 1, // Corner roundness (0..1)
+		rotate: 0, // The rotation offset
+		color: '#FFF', // #rgb or #rrggbb
+		speed: 1, // Rounds per second
+		trail: 60, // Afterglow percentage
+		shadow: false, // Whether to render a shadow
+		hwaccel: false, // Whether to use hardware acceleration
+		className: 'spinnerr', // The CSS class to assign to the spinner
+		zIndex: 2e9, // The z-index (defaults to 2000000000)
+		top: 'auto', // Top position relative to parent in px
+		left: 'auto' // Left position relative to parent in px
+	};
+	showMask('loadMask');
+	var target = document.createElement("div");
+	document.body.appendChild(target);
+	var spinner = new Spinner(opts).spin(target);
+	iosOverlayObj = iosOverlay({
+		text: "",
+		duration: 100,
+		spinner: spinner,
+		icon:null
+	});
+	return false;
+}
+function hide(){
+	iosOverlayObj.hide();
+	$("#loadMask").hide();
+}
+function showMask(maskId){
+	$("#"+maskId).css('height',$(document).height());
+	$("#"+maskId).css('width',$(document).width());
+	$("#"+maskId).show();
+}
+//loading();
+</script>
+
+    <script type="text/javascript">
+		var appname = decodeURI("城建税、教育费附加、地方教育附加税（费）申报表".replace(/_/g,"%"));
+		loadCzzx("91320214MA1NYKMBXK", "无锡品凡自动化设备有限公司", appname);
+		var navs = '[{"appmc":"我要办税","appbh":"030"},{"appmc":"税费申报及缴纳","appbh":"03012"}]';
+		if(navs && navs != "null"){
+			navs = JSON.parse(navs);
+		}
+		var map = {"020":"wdxx","030":"wybs","040":"wycx","050":"hdzx"};
+		if(navs){
+			for(var i = 0; i < navs.length; i++){
+				var title = "",href = "";
+				if(navs[i].appmc){
+					title = navs[i].appmc;
+				}
+				if(navs[i].appbh){
+					href = map[navs[i].appbh.slice(0,3)];
+				}
+				$(".pagename").before('<a href="/portal/index.do?tab='+href+'">'+title+'</a><span>></span>');
+			}
+		}
+		var message = "";
+		if(message && message != "null") {
+			layerHandler.alert(message, function() {
+				window.top.closeWindow();
+			});
+		} else {
+			var isLoad = "N";
+			$(".pagename").html(decodeURI("城建税、教育费附加、地方教育附加税（费）申报表".replace(/_/g,"%")))
+			$(".pagename").click(function(){
+				window.location.reload();
+			});
+			if(isLoad == "Y"){
+				$("#index").load("https://etax.jiangsu.chinatax.gov.cn/shenbao/dsIndex.action?sign=index&sb_type=45&menu_show_type=0&nsrdzdah=10113202010000036353&new_dlm=91320214MA1NYKMBXK&username=91320214MA1NYKMBXK&djxh=10113202010000066973&sssq_z=2019-11-30&sssq_q=2019-11-01&yrdbz=must".replace(/%26/g,"&"));
+			} else {
+				$("#index").append('<iframe height="'+($(window).height()-145)+'" id="contentiframe" src="'+"https://etax.jiangsu.chinatax.gov.cn/shenbao/dsIndex.action?sign=index&sb_type=45&menu_show_type=0&nsrdzdah=10113202010000036353&new_dlm=91320214MA1NYKMBXK&username=91320214MA1NYKMBXK&djxh=10113202010000066973&sssq_z=2019-11-30&sssq_q=2019-11-01&yrdbz=must".replace(/%26/g,"&")+'"></iframe>');
+			}
+			$.fn.smartMenu = function(){}
+			window.Index_tab.add_tab = function(item){
+				$("#index").empty();
+				$("#index").append('<iframe height="'+($(window).height()-145)+'" id="contentiframe" src="'+item.src+'"></iframe>');
+				$(".nav").append('<span>></span><a class="pagename2">'+item.title+'</a>');
+				$(".pagename2").click(function(){
+					$("#index").empty();
+					$("#index").append('<iframe height="'+($(window).height()-145)+'" id="contentiframe" src="'+item.src+'"></iframe>');
+				});
+			}
+		}
+
+
+	</script>
+
+</body>
+</html>
